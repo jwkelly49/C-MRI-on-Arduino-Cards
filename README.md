@@ -1,2 +1,3 @@
-# C-MRI-on-Arduino-Cards
-Hardware cards using Arduino with C/MRI software interfaced to JMRI
+As a hobby project I've been developing model railroad hardware interface cards. They are based on the UNO chip using Dr Chubb's Computer / Model Railroad Interface (C/MRI) protocol interfaced with Jave Model Railroad Interface (JMRI.) 
+My Arduino code utilizes libraries <Auto485.h> and <CMRI.h> written by Michael Adams (http://www.michael.net.nz) Copyright (C) 2012 Michael D K Adams. Released under the MIT license and other standard Arduino libraries. 
+The hardware design is my own and I hope individuals and clubs can benefit from my effort. Each card will come with a "how" to use / install" PDF file, Arduino code, BOM and links to where to get the PCB printed.
