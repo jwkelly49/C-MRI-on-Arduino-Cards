@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/panelfile-2-9-6.xsl" type="text/xsl"?>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-2-9-6.xsd">
+  <jmriversion>
+    <major>4</major>
+    <minor>18</minor>
+    <test>0</test>
+    <modifier />
+  </jmriversion>
+  <sensors class="jmri.jmrix.internal.configurexml.InternalSensorManagerXml">
+    <defaultInitialState>unknown</defaultInitialState>
+    <sensor inverted="false">
+      <systemName>ISCLOCKRUNNING</systemName>
+    </sensor>
+  </sensors>
+  <sensors class="jmri.jmrix.cmri.serial.configurexml.SerialSensorManagerXml">
+    <sensor inverted="false">
+      <systemName>CS1</systemName>
+      <userName>Input 1</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS2</systemName>
+      <userName>Input 2</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS3</systemName>
+      <userName>Input 3</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS4</systemName>
+      <userName>Input 4</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS5</systemName>
+      <userName>Input 5</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS6</systemName>
+      <userName>Input 6</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS7</systemName>
+      <userName>Input 7</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS8</systemName>
+      <userName>Input 8</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS1001</systemName>
+      <userName>Node 1 input 1</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS1002</systemName>
+      <userName>Node 1 input 2</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS1003</systemName>
+      <userName>Node 1 input 3</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS1004</systemName>
+      <userName>Node 1 input 4</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS1005</systemName>
+      <userName>Node 1 input 5</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS1006</systemName>
+      <userName>Node 1 input 6</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS1007</systemName>
+      <userName>Node 1 input 7</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS1008</systemName>
+      <userName>Node 1 input 8</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS2001</systemName>
+      <userName>Node 2 input 1</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS2002</systemName>
+      <userName>Node 2 input 2</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS2003</systemName>
+      <userName>Node 2 input 3</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS2004</systemName>
+      <userName>Node 2 input 4</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS2005</systemName>
+      <userName>Node 2 input 5</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS2006</systemName>
+      <userName>Node 2 input 6</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS2007</systemName>
+      <userName>Node 2 input 7</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS2008</systemName>
+      <userName>Node 2 input 8</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS3001</systemName>
+      <userName>Node 3 input 1</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS3002</systemName>
+      <userName>Node 3 input 2</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS3003</systemName>
+      <userName>Node 3 input 3</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS3004</systemName>
+      <userName>Node 3 input 4</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS3005</systemName>
+      <userName>Node 3 input 5</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS3006</systemName>
+      <userName>Node 3 input 6</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS3007</systemName>
+      <userName>Node 3 input 7</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS3008</systemName>
+      <userName>Node 3 input 8</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS4001</systemName>
+      <userName>Node 4  input 1</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS4002</systemName>
+      <userName>Node 4  input 2</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS4003</systemName>
+      <userName>Node 4  input 3</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS4004</systemName>
+      <userName>Node 4  input 4</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS4005</systemName>
+      <userName>Node 4  input 5</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS4006</systemName>
+      <userName>Node 4  input 6</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS4007</systemName>
+      <userName>Node 4  input 7</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS4008</systemName>
+      <userName>Node 4  input 8</userName>
+    </sensor>
+  </sensors>
+  <turnouts class="jmri.jmrix.cmri.serial.configurexml.SerialTurnoutManagerXml">
+    <operations automate="false">
+      <operation name="NoFeedback" class="jmri.configurexml.turnoutoperations.NoFeedbackTurnoutOperationXml" interval="300" maxtries="2" />
+      <operation name="Raw" class="jmri.configurexml.turnoutoperations.RawTurnoutOperationXml" interval="300" maxtries="1" />
+      <operation name="Sensor" class="jmri.configurexml.turnoutoperations.SensorTurnoutOperationXml" interval="300" maxtries="3" />
+    </operations>
+    <defaultclosedspeed>Normal</defaultclosedspeed>
+    <defaultthrownspeed>Restricted</defaultthrownspeed>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT1</systemName>
+      <userName>turnout 1</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT2</systemName>
+      <userName>turnout 2</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT3</systemName>
+      <userName>turnout 3</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT4</systemName>
+      <userName>turnout 4</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT5</systemName>
+      <userName>turnout 5</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT6</systemName>
+      <userName>turnout 6</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT7</systemName>
+      <userName>turnout 7</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT8</systemName>
+      <userName>turnout 8</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT9</systemName>
+      <userName>turnout 9</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT10</systemName>
+      <userName>turnout 10</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT11</systemName>
+      <userName>turnout 11</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT12</systemName>
+      <userName>turnout 12</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT1001</systemName>
+      <userName>node 1 turnout 1</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT1002</systemName>
+      <userName>node 1 turnout 2</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT1003</systemName>
+      <userName>node 1 turnout 3</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT1004</systemName>
+      <userName>node 1 turnout 4</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT1005</systemName>
+      <userName>node 1 turnout 5</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT1006</systemName>
+      <userName>node 1 turnout 6</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT1007</systemName>
+      <userName>node 1 turnout 7</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT1008</systemName>
+      <userName>node 1 turnout 8</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT1009</systemName>
+      <userName>node 1 turnout 9</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT1010</systemName>
+      <userName>node 1 turnout 10</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT1011</systemName>
+      <userName>node 1 turnout 11</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT1012</systemName>
+      <userName>node 1 turnout 12</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT2001</systemName>
+      <userName>node 2 turnout 1</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT2002</systemName>
+      <userName>node 2 turnout 2</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT2003</systemName>
+      <userName>node 2 turnout 3</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT2004</systemName>
+      <userName>node 2 turnout 4</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT2005</systemName>
+      <userName>node 2 turnout 5</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT2006</systemName>
+      <userName>node 2 turnout 6</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT2007</systemName>
+      <userName>node 2 turnout 7</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT2008</systemName>
+      <userName>node 2 turnout 8</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT2009</systemName>
+      <userName>node 2 turnout 9</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT2010</systemName>
+      <userName>node 2 turnout 10</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT2011</systemName>
+      <userName>node 2 turnout 11</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT2012</systemName>
+      <userName>node 2 turnout 12</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT3001</systemName>
+      <userName>node 3 turnout 1</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT3002</systemName>
+      <userName>node 3 turnout 2</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT3003</systemName>
+      <userName>node 3 turnout 3</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT3004</systemName>
+      <userName>node 3 turnout 4</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT3005</systemName>
+      <userName>node 3 turnout 5</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT3006</systemName>
+      <userName>node 3 turnout 6</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT3007</systemName>
+      <userName>node 3 turnout 7</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT3008</systemName>
+      <userName>node 3 turnout 8</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT3009</systemName>
+      <userName>node 3 turnout 9</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT3010</systemName>
+      <userName>node 3 turnout 10</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT3011</systemName>
+      <userName>node 3 turnout 11</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT3012</systemName>
+      <userName>node 3 turnout 12</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT4001</systemName>
+      <userName>node 4 turnout 1</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT4002</systemName>
+      <userName>node 4 turnout 2</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT4003</systemName>
+      <userName>node 4 turnout 3</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT4004</systemName>
+      <userName>node 4 turnout 4</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT4005</systemName>
+      <userName>node 4 turnout 5</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT4006</systemName>
+      <userName>node 4 turnout 6</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT4007</systemName>
+      <userName>node 4 turnout 7</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT4008</systemName>
+      <userName>node 4 turnout 8</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT4009</systemName>
+      <userName>node 4 turnout 9</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT4010</systemName>
+      <userName>node 4 turnout 10</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT4011</systemName>
+      <userName>node 4 turnout 11</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT4012</systemName>
+      <userName>node 4 turnout 12</userName>
+    </turnout>
+  </turnouts>
+  <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
+    <memory value="1:40 PM">
+      <systemName>IMCURRENTTIME</systemName>
+    </memory>
+    <memory value="1.0">
+      <systemName>IMRATEFACTOR</systemName>
+    </memory>
+  </memories>
+  <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
+    <logicDelay>500</logicDelay>
+  </signalmastlogics>
+  <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Mon Apr 20 15:24:31 CDT 2020" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
+  <filehistory>
+    <operation>
+      <type>app</type>
+      <date>Sat Jun 06 12:09:00 CDT 2020</date>
+      <filename>JMRI program</filename>
+    </operation>
+    <operation>
+      <type>Load OK</type>
+      <date>Sat Jun 06 12:09:45 CDT 2020</date>
+      <filename>/C:/Users/jwkel/Google%20Drive/JMRI/8_Inputs_with_I2C_Card.jmri/8%20inputs%20with%20IC2.xml</filename>
+      <filehistory>
+        <operation>
+          <type>app</type>
+          <date>Sat May 02 07:50:20 CDT 2020</date>
+          <filename>JMRI program</filename>
+        </operation>
+        <operation>
+          <type>Load OK</type>
+          <date>Sat May 02 07:50:54 CDT 2020</date>
+          <filename>/C:/Users/jwkel/Google%20Drive/JMRI/8_inputs_with_IC2_Card.jmri/8%20inputs%20with%20IC2.xml</filename>
+          <filehistory>
+            <operation>
+              <type>app</type>
+              <date>Fri May 01 18:13:11 CDT 2020</date>
+              <filename>JMRI program</filename>
+            </operation>
+            <operation>
+              <type>Load OK</type>
+              <date>Fri May 01 18:13:27 CDT 2020</date>
+              <filename>/C:/Users/jwkel/Google%20Drive/JMRI/8_inputs_with_IC2_Card.jmri/8%20inputs%20with%20IC2.xml</filename>
+              <filehistory>
+                <operation>
+                  <type>app</type>
+                  <date>Fri May 01 18:00:04 CDT 2020</date>
+                  <filename>JMRI program</filename>
+                </operation>
+                <operation>
+                  <type>Load OK</type>
+                  <date>Fri May 01 18:00:51 CDT 2020</date>
+                  <filename>/C:/Users/jwkel/Google%20Drive/JMRI/8_inputs_with_IC2_Card.jmri/8%20inputs%20with%20IC2.xml</filename>
+                  <filehistory>
+                    <operation>
+                      <type>app</type>
+                      <date>Fri May 01 11:11:30 CDT 2020</date>
+                      <filename>JMRI program</filename>
+                    </operation>
+                    <operation>
+                      <type>Load OK</type>
+                      <date>Fri May 01 11:12:11 CDT 2020</date>
+                      <filename>/C:/Users/jwkel/Google%20Drive/JMRI/8_inputs_with_IC2_Card.jmri/8%20input%208%20output%20panel.xml</filename>
+                      <filehistory>
+                        <operation>
+                          <type>app</type>
+                          <date>Mon Apr 20 16:05:03 CDT 2020</date>
+                          <filename>JMRI program</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Mon Apr 20 16:05:24 CDT 2020</date>
+                          <filename>/C:/Users/jwkel/JMRI/8_input_8_output_card.jmri/8%20input%208%20output%20panel.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Store</type>
+                          <date>Mon Apr 20 16:09:36 CDT 2020</date>
+                          <filename />
+                        </operation>
+                      </filehistory>
+                    </operation>
+                    <operation>
+                      <type>Store</type>
+                      <date>Fri May 01 11:15:29 CDT 2020</date>
+                      <filename />
+                    </operation>
+                  </filehistory>
+                </operation>
+                <operation>
+                  <type>Load OK</type>
+                  <date>Fri May 01 18:01:45 CDT 2020</date>
+                  <filename>/C:/Users/jwkel/Google%20Drive/JMRI/8_inputs_with_IC2_Card.jmri/8%20inputs%20with%20IC2.xml</filename>
+                  <filehistory>
+                    <operation>
+                      <type>app</type>
+                      <date>Fri May 01 11:11:30 CDT 2020</date>
+                      <filename>JMRI program</filename>
+                    </operation>
+                    <operation>
+                      <type>Load OK</type>
+                      <date>Fri May 01 11:12:11 CDT 2020</date>
+                      <filename>/C:/Users/jwkel/Google%20Drive/JMRI/8_inputs_with_IC2_Card.jmri/8%20input%208%20output%20panel.xml</filename>
+                      <filehistory>
+                        <operation>
+                          <type>app</type>
+                          <date>Mon Apr 20 16:05:03 CDT 2020</date>
+                          <filename>JMRI program</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Mon Apr 20 16:05:24 CDT 2020</date>
+                          <filename>/C:/Users/jwkel/JMRI/8_input_8_output_card.jmri/8%20input%208%20output%20panel.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Store</type>
+                          <date>Mon Apr 20 16:09:36 CDT 2020</date>
+                          <filename />
+                        </operation>
+                      </filehistory>
+                    </operation>
+                    <operation>
+                      <type>Store</type>
+                      <date>Fri May 01 11:15:29 CDT 2020</date>
+                      <filename />
+                    </operation>
+                  </filehistory>
+                </operation>
+                <operation>
+                  <type>Store</type>
+                  <date>Fri May 01 18:08:10 CDT 2020</date>
+                  <filename />
+                </operation>
+              </filehistory>
+            </operation>
+            <operation>
+              <type>Store</type>
+              <date>Sat May 02 07:49:42 CDT 2020</date>
+              <filename />
+            </operation>
+          </filehistory>
+        </operation>
+        <operation>
+          <type>Store</type>
+          <date>Sat May 02 13:35:08 CDT 2020</date>
+          <filename />
+        </operation>
+      </filehistory>
+    </operation>
+    <operation>
+      <type>Store</type>
+      <date>Sat Jun 06 13:40:42 CDT 2020</date>
+      <filename />
+    </operation>
+  </filehistory>
+  <!--Written by JMRI version 4.18+R37ad3d0 on Sat Jun 06 13:40:42 CDT 2020-->
+</layout-config>

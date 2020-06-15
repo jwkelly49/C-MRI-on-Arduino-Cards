@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/panelfile-2-9-6.xsl" type="text/xsl"?>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-2-9-6.xsd">
+  <jmriversion>
+    <major>4</major>
+    <minor>17</minor>
+    <test>3</test>
+    <modifier />
+  </jmriversion>
+  <sensors class="jmri.jmrix.internal.configurexml.InternalSensorManagerXml">
+    <defaultInitialState>unknown</defaultInitialState>
+    <sensor inverted="false">
+      <systemName>ISCLOCKRUNNING</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS1</systemName>
+      <userName>route a</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS2</systemName>
+      <userName>route b</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS3</systemName>
+      <userName>route c</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS4</systemName>
+      <userName>route d</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS5</systemName>
+      <userName>route e</userName>
+    </sensor>
+  </sensors>
+  <turnouts class="jmri.jmrix.cmri.serial.configurexml.SerialTurnoutManagerXml">
+    <operations automate="false">
+      <operation name="NoFeedback" class="jmri.configurexml.turnoutoperations.NoFeedbackTurnoutOperationXml" interval="300" maxtries="2" />
+      <operation name="Raw" class="jmri.configurexml.turnoutoperations.RawTurnoutOperationXml" interval="300" maxtries="1" />
+      <operation name="Sensor" class="jmri.configurexml.turnoutoperations.SensorTurnoutOperationXml" interval="300" maxtries="3" />
+    </operations>
+    <defaultclosedspeed>Normal</defaultclosedspeed>
+    <defaultthrownspeed>Restricted</defaultthrownspeed>
+    <turnout feedback="DIRECT" inverted="false" numBits="2" controlType="1" automate="Off">
+      <systemName>CT1</systemName>
+      <userName>Tortoise A</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" numBits="2" controlType="1" automate="Off">
+      <systemName>CT3</systemName>
+      <userName>Tortoise B</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" numBits="2" controlType="1" automate="Off">
+      <systemName>CT5</systemName>
+      <userName>Tortoise C</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" numBits="2" controlType="1" automate="Off">
+      <systemName>CT7</systemName>
+      <userName>Tortoise D</userName>
+    </turnout>
+  </turnouts>
+  <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
+    <memory value="2:40 PM">
+      <systemName>IMCURRENTTIME</systemName>
+    </memory>
+    <memory value="1.0">
+      <systemName>IMRATEFACTOR</systemName>
+    </memory>
+  </memories>
+  <signalmasts class="jmri.managers.configurexml.DefaultSignalMastManagerXml" />
+  <signalgroups class="jmri.managers.configurexml.DefaultSignalGroupManagerXml" />
+  <oblocks class="jmri.jmrit.logix.configurexml.OBlockManagerXml" />
+  <routes class="jmri.managers.configurexml.DefaultRouteManagerXml">
+    <route userName="route a">
+      <systemName>IR:AUTO:0001</systemName>
+      <userName>route a</userName>
+      <routeOutputTurnout systemName="Tortoise A" state="CLOSED" />
+      <routeOutputTurnout systemName="Tortoise B" state="CLOSED" />
+      <routeOutputTurnout systemName="Tortoise C" state="CLOSED" />
+      <routeOutputTurnout systemName="Tortoise D" state="CLOSED" />
+      <routeSensor systemName="IS1" mode="onActive" />
+    </route>
+    <route userName="route b">
+      <systemName>IR:AUTO:0002</systemName>
+      <userName>route b</userName>
+      <routeOutputTurnout systemName="Tortoise A" state="THROWN" />
+      <routeOutputTurnout systemName="Tortoise B" state="THROWN" />
+      <routeOutputTurnout systemName="Tortoise C" state="THROWN" />
+      <routeOutputTurnout systemName="Tortoise D" state="THROWN" />
+      <routeSensor systemName="IS2" mode="onActive" />
+    </route>
+    <route userName="route c">
+      <systemName>IR:AUTO:0003</systemName>
+      <userName>route c</userName>
+      <routeOutputTurnout systemName="Tortoise A" state="CLOSED" />
+      <routeOutputTurnout systemName="Tortoise B" state="THROWN" />
+      <routeOutputTurnout systemName="Tortoise C" state="CLOSED" />
+      <routeOutputTurnout systemName="Tortoise D" state="CLOSED" />
+      <routeSensor systemName="IS3" mode="onActive" />
+    </route>
+    <route userName="route d">
+      <systemName>IR:AUTO:0004</systemName>
+      <userName>route d</userName>
+      <routeOutputTurnout systemName="Tortoise A" state="CLOSED" />
+      <routeOutputTurnout systemName="Tortoise B" state="CLOSED" />
+      <routeOutputTurnout systemName="Tortoise C" state="THROWN" />
+      <routeOutputTurnout systemName="Tortoise D" state="CLOSED" />
+      <routeSensor systemName="IS4" mode="onActive" />
+    </route>
+    <route userName="route e">
+      <systemName>IR:AUTO:0005</systemName>
+      <userName>route e</userName>
+      <routeOutputTurnout systemName="Tortoise A" state="CLOSED" />
+      <routeOutputTurnout systemName="Tortoise B" state="CLOSED" />
+      <routeOutputTurnout systemName="Tortoise C" state="CLOSED" />
+      <routeOutputTurnout systemName="Tortoise D" state="THROWN" />
+      <routeSensor systemName="IS5" mode="onActive" />
+    </route>
+  </routes>
+  <warrants class="jmri.jmrit.logix.configurexml.WarrantManagerXml" />
+  <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
+    <logicDelay>500</logicDelay>
+  </signalmastlogics>
+  <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Thu Mar 19 07:32:52 CDT 2020" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
+  <filehistory>
+    <operation>
+      <type>app</type>
+      <date>Thu Mar 19 07:32:49 CDT 2020</date>
+      <filename>JMRI program</filename>
+    </operation>
+    <operation>
+      <type>Store</type>
+      <date>Fri Mar 20 14:40:49 CDT 2020</date>
+      <filename />
+    </operation>
+  </filehistory>
+  <!--Written by JMRI version 4.17.3+R12d2ded on Fri Mar 20 14:40:49 CDT 2020-->
+</layout-config>

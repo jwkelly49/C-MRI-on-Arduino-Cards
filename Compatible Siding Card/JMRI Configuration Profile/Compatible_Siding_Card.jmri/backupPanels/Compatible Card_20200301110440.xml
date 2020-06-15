@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/panelfile-2-9-6.xsl" type="text/xsl"?>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-2-9-6.xsd">
+  <jmriversion>
+    <major>4</major>
+    <minor>17</minor>
+    <test>3</test>
+    <modifier />
+  </jmriversion>
+  <sensors class="jmri.jmrix.internal.configurexml.InternalSensorManagerXml">
+    <defaultInitialState>unknown</defaultInitialState>
+    <sensor inverted="false">
+      <systemName>ISCLOCKRUNNING</systemName>
+    </sensor>
+  </sensors>
+  <sensors class="jmri.jmrix.cmri.serial.configurexml.SerialSensorManagerXml">
+    <sensor inverted="true">
+      <systemName>CS1</systemName>
+      <userName>N. Passing Tortoise Mainline</userName>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>CS2</systemName>
+      <userName>N. Passing Tortoise Diverging</userName>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>CS3</systemName>
+      <userName>N. Passing OS Detection</userName>
+    </sensor>
+  </sensors>
+  <turnouts class="jmri.jmrix.cmri.serial.configurexml.SerialTurnoutManagerXml">
+    <operations automate="false">
+      <operation name="NoFeedback" class="jmri.configurexml.turnoutoperations.NoFeedbackTurnoutOperationXml" interval="300" maxtries="2" />
+      <operation name="Raw" class="jmri.configurexml.turnoutoperations.RawTurnoutOperationXml" interval="300" maxtries="1" />
+      <operation name="Sensor" class="jmri.configurexml.turnoutoperations.SensorTurnoutOperationXml" interval="300" maxtries="3" />
+    </operations>
+    <defaultclosedspeed>Normal</defaultclosedspeed>
+    <defaultthrownspeed>Restricted</defaultthrownspeed>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT1</systemName>
+      <comment>SignalHead:CH1:Green</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT2</systemName>
+      <comment>SignalHead:CH1:Yellow</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT3</systemName>
+      <comment>SignalHead:CH1:Red</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT4</systemName>
+      <comment>SignalHead:CH2:Green</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT5</systemName>
+      <comment>SignalHead:CH2:Red</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT6</systemName>
+      <comment>SignalHead:CH3:Green</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT7</systemName>
+      <comment>SignalHead:CH3:Red</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT8</systemName>
+      <comment>SignalHead:CH3:Red</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT9</systemName>
+      <comment>SignalHead:CH4:Red:Red</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT10</systemName>
+      <comment>SignalHead:CH5:Green</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT11</systemName>
+      <comment>SignalHead:CH5:Red</comment>
+    </turnout>
+    <turnout feedback="TWOSENSOR" sensor1="N. Passing Tortoise Mainline" sensor2="N. Passing Tortoise Diverging" inverted="false" numBits="2" controlType="1" automate="Off">
+      <systemName>CT12</systemName>
+      <userName>N. Passing Siding</userName>
+    </turnout>
+  </turnouts>
+  <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
+    <memory value="11:04 AM">
+      <systemName>IMCURRENTTIME</systemName>
+    </memory>
+    <memory value="1.0">
+      <systemName>IMRATEFACTOR</systemName>
+    </memory>
+  </memories>
+  <signalheads class="jmri.managers.configurexml.AbstractSignalHeadManagerXml">
+    <signalhead class="jmri.implementation.configurexml.TripleTurnoutSignalHeadXml">
+      <systemName>CH1</systemName>
+      <userName>N. Passing A - Top Head</userName>
+      <turnoutname defines="green">CT1</turnoutname>
+      <turnoutname defines="yellow">CT2</turnoutname>
+      <turnoutname defines="red">CT3</turnoutname>
+    </signalhead>
+    <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
+      <systemName>CH2</systemName>
+      <userName>N. Passing A - Bottom Head</userName>
+      <turnoutname defines="green">CT4</turnoutname>
+      <turnoutname defines="red">CT5</turnoutname>
+    </signalhead>
+    <signalhead class="jmri.implementation.configurexml.TripleTurnoutSignalHeadXml">
+      <systemName>CH3</systemName>
+      <userName>N. Passing B - Top Head</userName>
+      <turnoutname defines="green">CT6</turnoutname>
+      <turnoutname defines="yellow">CT7</turnoutname>
+      <turnoutname defines="red">CT8</turnoutname>
+    </signalhead>
+    <signalhead class="jmri.implementation.configurexml.SingleTurnoutSignalHeadXml">
+      <systemName>CH4</systemName>
+      <userName>N. Passing B - bottom Head</userName>
+      <appearance defines="thrown">red</appearance>
+      <appearance defines="closed">red</appearance>
+      <turnoutname defines="aspect">CT9</turnoutname>
+    </signalhead>
+    <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
+      <systemName>CH5</systemName>
+      <userName>N. Passing C - Diverging Dwarf</userName>
+      <turnoutname defines="green">CT10</turnoutname>
+      <turnoutname defines="red">CT11</turnoutname>
+    </signalhead>
+  </signalheads>
+  <signalmasts class="jmri.managers.configurexml.DefaultSignalMastManagerXml">
+    <matrixsignalmast class="jmri.implementation.configurexml.MatrixSignalMastXml">
+      <systemName>IF$xsm:kellyCSX-1998:CLS-1-3-hi($0003)-4t</systemName>
+      <userName>N Passing Siding (Trailing)</userName>
+      <unlit allowed="no" />
+      <delay duration="0" />
+      <outputs>
+        <output matrixCol="output1">CT9</output>
+        <output matrixCol="output2">CT6</output>
+        <output matrixCol="output3">CT7</output>
+        <output matrixCol="output4">CT8</output>
+      </outputs>
+      <bitStrings>
+        <bitString aspect="Limited Clear">0011</bitString>
+        <bitString aspect="Limited Approach" />
+        <bitString aspect="Medium Clear" />
+        <bitString aspect="Medium Approach">0101</bitString>
+        <bitString aspect="Restricting" />
+        <bitString aspect="Stop">0110</bitString>
+      </bitStrings>
+      <disabledAspects>
+        <disabledAspect>Limited Approach</disabledAspect>
+        <disabledAspect>Medium Clear</disabledAspect>
+        <disabledAspect>Restricting</disabledAspect>
+      </disabledAspects>
+    </matrixsignalmast>
+    <matrixsignalmast class="jmri.implementation.configurexml.MatrixSignalMastXml">
+      <systemName>IF$xsm:kellyCSX-1998:CLS-3-2-hi($0001)-5t</systemName>
+      <userName>N. Passing Siding (facing)</userName>
+      <unlit allowed="no" />
+      <delay duration="0" />
+      <outputs>
+        <output matrixCol="output1">CT1</output>
+        <output matrixCol="output2">CT2</output>
+        <output matrixCol="output3">CT3</output>
+        <output matrixCol="output4">CT4</output>
+        <output matrixCol="output5">CT5</output>
+      </outputs>
+      <bitStrings>
+        <bitString aspect="Clear">01110</bitString>
+        <bitString aspect="Approach">10110</bitString>
+        <bitString aspect="Medium Approach">11001</bitString>
+        <bitString aspect="Restricting" />
+        <bitString aspect="Stop">11010</bitString>
+      </bitStrings>
+      <disabledAspects>
+        <disabledAspect>Restricting</disabledAspect>
+      </disabledAspects>
+    </matrixsignalmast>
+    <matrixsignalmast class="jmri.implementation.configurexml.MatrixSignalMastXml">
+      <systemName>IF$xsm:kellyCSX-1998:CLS-3-3-lo($0002)-2t</systemName>
+      <userName>N. Passing Siding (Dwarf)</userName>
+      <unlit allowed="no" />
+      <delay duration="0" />
+      <outputs>
+        <output matrixCol="output1">CT10</output>
+        <output matrixCol="output2">CT11</output>
+      </outputs>
+      <bitStrings>
+        <bitString aspect="Clear">01</bitString>
+        <bitString aspect="Approach Limited" />
+        <bitString aspect="Limited Clear" />
+        <bitString aspect="Limited Approach" />
+        <bitString aspect="Approach Medium" />
+        <bitString aspect="Medium Clear" />
+        <bitString aspect="Medium Advance Approach" />
+        <bitString aspect="Medium Approach" />
+        <bitString aspect="Slow Clear" />
+        <bitString aspect="Slow Approach" />
+        <bitString aspect="Stop">10</bitString>
+      </bitStrings>
+      <disabledAspects>
+        <disabledAspect>Approach Limited</disabledAspect>
+        <disabledAspect>Limited Clear</disabledAspect>
+        <disabledAspect>Limited Approach</disabledAspect>
+        <disabledAspect>Approach Medium</disabledAspect>
+        <disabledAspect>Medium Clear</disabledAspect>
+        <disabledAspect>Medium Advance Approach</disabledAspect>
+        <disabledAspect>Medium Approach</disabledAspect>
+        <disabledAspect>Slow Clear</disabledAspect>
+        <disabledAspect>Slow Approach</disabledAspect>
+      </disabledAspects>
+    </matrixsignalmast>
+  </signalmasts>
+  <signalgroups class="jmri.managers.configurexml.DefaultSignalGroupManagerXml" />
+  <oblocks class="jmri.jmrit.logix.configurexml.OBlockManagerXml" />
+  <warrants class="jmri.jmrit.logix.configurexml.WarrantManagerXml" />
+  <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
+    <logicDelay>500</logicDelay>
+  </signalmastlogics>
+  <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Sun Mar 01 08:11:26 CST 2020" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
+  <filehistory>
+    <operation>
+      <type>app</type>
+      <date>Sun Mar 01 08:11:25 CST 2020</date>
+      <filename>JMRI program</filename>
+    </operation>
+    <operation>
+      <type>Store</type>
+      <date>Sun Mar 01 11:04:09 CST 2020</date>
+      <filename />
+    </operation>
+  </filehistory>
+  <!--Written by JMRI version 4.17.3+R12d2ded on Sun Mar 01 11:04:09 CST 2020-->
+</layout-config>

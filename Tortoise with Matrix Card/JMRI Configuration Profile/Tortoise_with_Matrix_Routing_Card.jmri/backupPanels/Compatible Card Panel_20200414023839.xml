@@ -1,0 +1,1210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/panelfile-2-9-6.xsl" type="text/xsl"?>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-2-9-6.xsd">
+  <jmriversion>
+    <major>4</major>
+    <minor>17</minor>
+    <test>3</test>
+    <modifier />
+  </jmriversion>
+  <sensors class="jmri.jmrix.internal.configurexml.InternalSensorManagerXml">
+    <defaultInitialState>unknown</defaultInitialState>
+    <sensor inverted="false">
+      <systemName>ISCLOCKRUNNING</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS1</systemName>
+      <userName>Blk Sensor 1</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS2</systemName>
+      <userName>Blk Sensor 2</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS3</systemName>
+      <userName>Blk Sensor 3</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS4</systemName>
+      <userName>Blk Sensor 4</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS5</systemName>
+      <userName>Blk Sensor 5</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS6</systemName>
+      <userName>Blk Sensor 6</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0001:forward</systemName>
+      <userName>IY:AUTO:0001:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0001:reverse</systemName>
+      <userName>IY:AUTO:0001:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0002:forward</systemName>
+      <userName>IY:AUTO:0002:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0002:reverse</systemName>
+      <userName>IY:AUTO:0002:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0003:forward</systemName>
+      <userName>IY:AUTO:0003:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0003:reverse</systemName>
+      <userName>IY:AUTO:0003:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0004:forward</systemName>
+      <userName>IY:AUTO:0004:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0004:reverse</systemName>
+      <userName>IY:AUTO:0004:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0005:forward</systemName>
+      <userName>IY:AUTO:0005:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0005:reverse</systemName>
+      <userName>IY:AUTO:0005:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0006:forward</systemName>
+      <userName>IY:AUTO:0006:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0006:reverse</systemName>
+      <userName>IY:AUTO:0006:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0007:forward</systemName>
+      <userName>IY:AUTO:0007:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0007:reverse</systemName>
+      <userName>IY:AUTO:0007:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0008:forward</systemName>
+      <userName>IY:AUTO:0008:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0008:reverse</systemName>
+      <userName>IY:AUTO:0008:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0009:forward</systemName>
+      <userName>IY:AUTO:0009:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0009:reverse</systemName>
+      <userName>IY:AUTO:0009:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0010:forward</systemName>
+      <userName>IY:AUTO:0010:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0010:reverse</systemName>
+      <userName>IY:AUTO:0010:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0011:forward</systemName>
+      <userName>IY:AUTO:0011:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0011:reverse</systemName>
+      <userName>IY:AUTO:0011:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0012:forward</systemName>
+      <userName>IY:AUTO:0012:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0012:reverse</systemName>
+      <userName>IY:AUTO:0012:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0013:forward</systemName>
+      <userName>IY:AUTO:0013:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0013:reverse</systemName>
+      <userName>IY:AUTO:0013:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0014:forward</systemName>
+      <userName>IY:AUTO:0014:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0014:reverse</systemName>
+      <userName>IY:AUTO:0014:reverse</userName>
+    </sensor>
+  </sensors>
+  <sensors class="jmri.jmrix.cmri.serial.configurexml.SerialSensorManagerXml">
+    <sensor inverted="true">
+      <systemName>CS1</systemName>
+      <userName>N. Passing Tortoise Mainline</userName>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>CS2</systemName>
+      <userName>N. Passing Tortoise Diverging</userName>
+    </sensor>
+    <sensor inverted="true">
+      <systemName>CS3</systemName>
+      <userName>N. Passing OS Detection</userName>
+    </sensor>
+  </sensors>
+  <turnouts class="jmri.jmrix.cmri.serial.configurexml.SerialTurnoutManagerXml">
+    <operations automate="false">
+      <operation name="NoFeedback" class="jmri.configurexml.turnoutoperations.NoFeedbackTurnoutOperationXml" interval="300" maxtries="2" />
+      <operation name="Raw" class="jmri.configurexml.turnoutoperations.RawTurnoutOperationXml" interval="300" maxtries="1" />
+      <operation name="Sensor" class="jmri.configurexml.turnoutoperations.SensorTurnoutOperationXml" interval="300" maxtries="3" />
+    </operations>
+    <defaultclosedspeed>Normal</defaultclosedspeed>
+    <defaultthrownspeed>Restricted</defaultthrownspeed>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT1</systemName>
+      <comment>SignalHead:CH1:Green</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT2</systemName>
+      <comment>SignalHead:CH1:Yellow</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT3</systemName>
+      <comment>SignalHead:CH1:Red</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT4</systemName>
+      <comment>SignalHead:CH2:Green</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT5</systemName>
+      <comment>SignalHead:CH2:Red</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT6</systemName>
+      <comment>SignalHead:CH3:Green</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT7</systemName>
+      <comment>SignalHead:CH3:Red</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT8</systemName>
+      <comment>SignalHead:CH3:Red</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT9</systemName>
+      <comment>SignalHead:CH4:Red:Red</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT10</systemName>
+      <comment>SignalHead:CH5:Green</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>CT11</systemName>
+      <comment>SignalHead:CH5:Red</comment>
+    </turnout>
+    <turnout feedback="TWOSENSOR" sensor1="N. Passing Tortoise Mainline" sensor2="N. Passing Tortoise Diverging" inverted="false" numBits="2" controlType="1" automate="Off">
+      <systemName>CT12</systemName>
+      <userName>N. Passing Siding</userName>
+    </turnout>
+  </turnouts>
+  <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
+    <memory value="1:07 PM">
+      <systemName>IMCURRENTTIME</systemName>
+    </memory>
+    <memory value="1.0">
+      <systemName>IMRATEFACTOR</systemName>
+    </memory>
+  </memories>
+  <signalheads class="jmri.managers.configurexml.AbstractSignalHeadManagerXml">
+    <signalhead class="jmri.implementation.configurexml.TripleTurnoutSignalHeadXml">
+      <systemName>CH1</systemName>
+      <userName>N. Passing A - Top Head</userName>
+      <turnoutname defines="green">CT1</turnoutname>
+      <turnoutname defines="yellow">CT2</turnoutname>
+      <turnoutname defines="red">CT3</turnoutname>
+    </signalhead>
+    <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
+      <systemName>CH2</systemName>
+      <userName>N. Passing A - Bottom Head</userName>
+      <turnoutname defines="green">CT4</turnoutname>
+      <turnoutname defines="red">CT5</turnoutname>
+    </signalhead>
+    <signalhead class="jmri.implementation.configurexml.TripleTurnoutSignalHeadXml">
+      <systemName>CH3</systemName>
+      <userName>N. Passing B - Top Head</userName>
+      <turnoutname defines="green">CT6</turnoutname>
+      <turnoutname defines="yellow">CT7</turnoutname>
+      <turnoutname defines="red">CT8</turnoutname>
+    </signalhead>
+    <signalhead class="jmri.implementation.configurexml.SingleTurnoutSignalHeadXml">
+      <systemName>CH4</systemName>
+      <userName>N. Passing B - bottom Head</userName>
+      <appearance defines="thrown">red</appearance>
+      <appearance defines="closed">red</appearance>
+      <turnoutname defines="aspect">CT9</turnoutname>
+    </signalhead>
+    <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
+      <systemName>CH5</systemName>
+      <userName>N. Passing C - Diverging Dwarf</userName>
+      <turnoutname defines="green">CT10</turnoutname>
+      <turnoutname defines="red">CT11</turnoutname>
+    </signalhead>
+  </signalheads>
+  <signalmasts class="jmri.managers.configurexml.DefaultSignalMastManagerXml">
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:kellyCSX-1998:CLS-3-hi($0004)</systemName>
+      <userName>west bound bumper</userName>
+      <unlit allowed="no" />
+      <disabledAspects>
+        <disabledAspect>Restricting</disabledAspect>
+      </disabledAspects>
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:kellyCSX-1998:CLS-3-hi($0005)</systemName>
+      <userName>east bound bumper</userName>
+      <unlit allowed="no" />
+      <disabledAspects>
+        <disabledAspect>Restricting</disabledAspect>
+      </disabledAspects>
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:kellyCSX-1998:CLS-3-hi($0006)</systemName>
+      <userName>blk 2 west</userName>
+      <properties>
+        <property>
+          <key>intermediateSignal</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <unlit allowed="no" />
+      <disabledAspects>
+        <disabledAspect>Restricting</disabledAspect>
+      </disabledAspects>
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:kellyCSX-1998:CLS-3-hi($0007)</systemName>
+      <userName>blk 1 west</userName>
+      <properties>
+        <property>
+          <key>intermediateSignal</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <unlit allowed="no" />
+      <disabledAspects>
+        <disabledAspect>Restricting</disabledAspect>
+      </disabledAspects>
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:kellyCSX-1998:CLS-3-hi($0008)</systemName>
+      <userName>blk 2 east</userName>
+      <properties>
+        <property>
+          <key>intermediateSignal</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <unlit allowed="no" />
+      <disabledAspects>
+        <disabledAspect>Restricting</disabledAspect>
+      </disabledAspects>
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:kellyCSX-1998:CLS-3-hi($0009)</systemName>
+      <userName>blk 3 east</userName>
+      <properties>
+        <property>
+          <key>intermediateSignal</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <unlit allowed="no" />
+      <disabledAspects>
+        <disabledAspect>Restricting</disabledAspect>
+      </disabledAspects>
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:kellyCSX-1998:CLS-3-hi($0010)</systemName>
+      <userName>blk 4 east</userName>
+      <properties>
+        <property>
+          <key>intermediateSignal</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <unlit allowed="no" />
+      <disabledAspects>
+        <disabledAspect>Restricting</disabledAspect>
+      </disabledAspects>
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:kellyCSX-1998:CLS-3-hi($0011)</systemName>
+      <userName>blk 3 west</userName>
+      <properties>
+        <property>
+          <key>intermediateSignal</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+      <unlit allowed="no" />
+      <disabledAspects>
+        <disabledAspect>Restricting</disabledAspect>
+      </disabledAspects>
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:kellyCSX-1998:CLS-3-lo($0002)</systemName>
+      <userName>siding bumper</userName>
+      <unlit allowed="no" />
+      <disabledAspects>
+        <disabledAspect>Slow Clear</disabledAspect>
+        <disabledAspect>Slow Approach</disabledAspect>
+        <disabledAspect>Restricting</disabledAspect>
+      </disabledAspects>
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:kellyCSX-1998:CLS-3-lo($0012)</systemName>
+      <userName>siding inlet</userName>
+      <unlit allowed="no" />
+      <disabledAspects>
+        <disabledAspect>Slow Approach</disabledAspect>
+        <disabledAspect>Restricting</disabledAspect>
+      </disabledAspects>
+    </virtualsignalmast>
+    <matrixsignalmast class="jmri.implementation.configurexml.MatrixSignalMastXml">
+      <systemName>IF$xsm:kellyCSX-1998:CLS-1-3-hi($0003)-4t</systemName>
+      <userName>N Passing Siding (Trailing)</userName>
+      <unlit allowed="no" />
+      <delay duration="0" />
+      <outputs>
+        <output matrixCol="output1">CT9</output>
+        <output matrixCol="output2">CT6</output>
+        <output matrixCol="output3">CT7</output>
+        <output matrixCol="output4">CT8</output>
+      </outputs>
+      <bitStrings>
+        <bitString aspect="Limited Clear">0011</bitString>
+        <bitString aspect="Limited Approach" />
+        <bitString aspect="Medium Clear">0011</bitString>
+        <bitString aspect="Medium Approach">0101</bitString>
+        <bitString aspect="Restricting" />
+        <bitString aspect="Stop">0110</bitString>
+      </bitStrings>
+      <disabledAspects>
+        <disabledAspect>Limited Approach</disabledAspect>
+        <disabledAspect>Restricting</disabledAspect>
+        <disabledAspect>Limited Clear</disabledAspect>
+      </disabledAspects>
+    </matrixsignalmast>
+    <matrixsignalmast class="jmri.implementation.configurexml.MatrixSignalMastXml">
+      <systemName>IF$xsm:kellyCSX-1998:CLS-3-2-hi($0001)-5t</systemName>
+      <userName>N. Passing Siding (facing)</userName>
+      <unlit allowed="no" />
+      <delay duration="0" />
+      <outputs>
+        <output matrixCol="output1">CT1</output>
+        <output matrixCol="output2">CT2</output>
+        <output matrixCol="output3">CT3</output>
+        <output matrixCol="output4">CT4</output>
+        <output matrixCol="output5">CT5</output>
+      </outputs>
+      <bitStrings>
+        <bitString aspect="Clear">01110</bitString>
+        <bitString aspect="Approach">10110</bitString>
+        <bitString aspect="Medium Approach">11001</bitString>
+        <bitString aspect="Restricting" />
+        <bitString aspect="Stop">11010</bitString>
+      </bitStrings>
+      <disabledAspects>
+        <disabledAspect>Restricting</disabledAspect>
+      </disabledAspects>
+    </matrixsignalmast>
+    <matrixsignalmast class="jmri.implementation.configurexml.MatrixSignalMastXml">
+      <systemName>IF$xsm:kellyCSX-1998:CLS-3-lo($0004)-2t</systemName>
+      <userName>N. Passing Siding (Dwarf)</userName>
+      <unlit allowed="no" />
+      <delay duration="0" />
+      <outputs>
+        <output matrixCol="output1">CT10</output>
+        <output matrixCol="output2">CT11</output>
+      </outputs>
+      <bitStrings>
+        <bitString aspect="Slow Clear">01</bitString>
+        <bitString aspect="Slow Approach">01</bitString>
+        <bitString aspect="Restricting" />
+        <bitString aspect="Stop">10</bitString>
+      </bitStrings>
+      <disabledAspects>
+        <disabledAspect>Restricting</disabledAspect>
+        <disabledAspect>Slow Approach</disabledAspect>
+      </disabledAspects>
+    </matrixsignalmast>
+  </signalmasts>
+  <signalgroups class="jmri.managers.configurexml.DefaultSignalGroupManagerXml" />
+  <blocks class="jmri.configurexml.BlockManagerXml">
+    <defaultspeed>Normal</defaultspeed>
+    <block systemName="IB:AUTO:0002">
+      <systemName>IB:AUTO:0002</systemName>
+      <userName>My Block 1</userName>
+    </block>
+    <block systemName="IB:AUTO:0003">
+      <systemName>IB:AUTO:0003</systemName>
+      <userName>My Block 2</userName>
+    </block>
+    <block systemName="IB:AUTO:0004">
+      <systemName>IB:AUTO:0004</systemName>
+      <userName>My Block 3</userName>
+    </block>
+    <block systemName="IB:AUTO:0005">
+      <systemName>IB:AUTO:0005</systemName>
+      <userName>My Block 4</userName>
+    </block>
+    <block systemName="IB:AUTO:0006">
+      <systemName>IB:AUTO:0006</systemName>
+      <userName>My Block 5</userName>
+    </block>
+    <block systemName="IB:AUTO:0007">
+      <systemName>IB:AUTO:0007</systemName>
+      <userName>My Block 6</userName>
+    </block>
+    <block systemName="IB:AUTO:0002" length="0.0" curve="0">
+      <systemName>IB:AUTO:0002</systemName>
+      <userName>My Block 1</userName>
+      <permissive>no</permissive>
+      <occupancysensor>Blk Sensor 1</occupancysensor>
+      <path todir="64" fromdir="128" block="IB:AUTO:0003" />
+    </block>
+    <block systemName="IB:AUTO:0003" length="0.0" curve="0">
+      <systemName>IB:AUTO:0003</systemName>
+      <userName>My Block 2</userName>
+      <permissive>no</permissive>
+      <occupancysensor>Blk Sensor 2</occupancysensor>
+      <path todir="128" fromdir="64" block="IB:AUTO:0002" />
+      <path todir="64" fromdir="128" block="IB:AUTO:0007" />
+    </block>
+    <block systemName="IB:AUTO:0004" length="0.0" curve="0">
+      <systemName>IB:AUTO:0004</systemName>
+      <userName>My Block 3</userName>
+      <permissive>no</permissive>
+      <occupancysensor>Blk Sensor 3</occupancysensor>
+      <path todir="128" fromdir="64" block="IB:AUTO:0007" />
+      <path todir="64" fromdir="128" block="IB:AUTO:0005" />
+    </block>
+    <block systemName="IB:AUTO:0005" length="0.0" curve="0">
+      <systemName>IB:AUTO:0005</systemName>
+      <userName>My Block 4</userName>
+      <permissive>no</permissive>
+      <occupancysensor>Blk Sensor 4</occupancysensor>
+      <path todir="128" fromdir="64" block="IB:AUTO:0004" />
+    </block>
+    <block systemName="IB:AUTO:0006" length="0.0" curve="0">
+      <systemName>IB:AUTO:0006</systemName>
+      <userName>My Block 5</userName>
+      <permissive>no</permissive>
+      <occupancysensor>Blk Sensor 5</occupancysensor>
+      <path todir="160" fromdir="80" block="IB:AUTO:0007" />
+    </block>
+    <block systemName="IB:AUTO:0007" length="0.0" curve="0">
+      <systemName>IB:AUTO:0007</systemName>
+      <userName>My Block 6</userName>
+      <permissive>no</permissive>
+      <occupancysensor>N. Passing OS Detection</occupancysensor>
+      <path todir="128" fromdir="64" block="IB:AUTO:0003" />
+      <path todir="64" fromdir="128" block="IB:AUTO:0004">
+        <beansetting setting="2">
+          <turnout systemName="N. Passing Siding" />
+        </beansetting>
+      </path>
+      <path todir="80" fromdir="160" block="IB:AUTO:0006">
+        <beansetting setting="4">
+          <turnout systemName="N. Passing Siding" />
+        </beansetting>
+      </path>
+    </block>
+  </blocks>
+  <oblocks class="jmri.jmrit.logix.configurexml.OBlockManagerXml" />
+  <layoutblocks class="jmri.jmrit.display.layoutEditor.configurexml.LayoutBlockManagerXml" blockrouting="yes">
+    <layoutblock systemName="ILB1" occupancysensor="Blk Sensor 1" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB1</systemName>
+      <userName>My Block 1</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB2" occupancysensor="N. Passing OS Detection" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB2</systemName>
+      <userName>My Block 6</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB3" occupancysensor="Blk Sensor 2" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB3</systemName>
+      <userName>My Block 2</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB4" occupancysensor="Blk Sensor 3" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB4</systemName>
+      <userName>My Block 3</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB5" occupancysensor="Blk Sensor 4" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB5</systemName>
+      <userName>My Block 4</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB6" occupancysensor="Blk Sensor 5" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+      <systemName>ILB6</systemName>
+      <userName>My Block 5</userName>
+    </layoutblock>
+  </layoutblocks>
+  <sections class="jmri.configurexml.SectionManagerXml">
+    <section systemName="IY:AUTO:0001" userName="blk 2 west:blk 1 west" creationtype="signalmastlogic" fsensorname="IY:AUTO:0001:forward" rsensorname="IY:AUTO:0001:reverse">
+      <systemName>IY:AUTO:0001</systemName>
+      <userName>blk 2 west:blk 1 west</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">blk 1 west</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0002" userName="blk 1 west:west bound bumper" creationtype="signalmastlogic" fsensorname="IY:AUTO:0002:forward" rsensorname="IY:AUTO:0002:reverse">
+      <systemName>IY:AUTO:0002</systemName>
+      <userName>blk 1 west:west bound bumper</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">west bound bumper</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0003" userName="blk 2 east:N. Passing Siding (facing)" creationtype="signalmastlogic" fsensorname="IY:AUTO:0003:forward" rsensorname="IY:AUTO:0003:reverse">
+      <systemName>IY:AUTO:0003</systemName>
+      <userName>blk 2 east:N. Passing Siding (facing)</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">N. Passing Siding (facing)</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0004" userName="blk 3 east:blk 4 east" creationtype="signalmastlogic" fsensorname="IY:AUTO:0004:forward" rsensorname="IY:AUTO:0004:reverse">
+      <systemName>IY:AUTO:0004</systemName>
+      <userName>blk 3 east:blk 4 east</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">blk 4 east</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0005" userName="blk 4 east:east bound bumper" creationtype="signalmastlogic" fsensorname="IY:AUTO:0005:forward" rsensorname="IY:AUTO:0005:reverse">
+      <systemName>IY:AUTO:0005</systemName>
+      <userName>blk 4 east:east bound bumper</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">east bound bumper</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0006" userName="blk 3 west:N Passing Siding (Trailing)" creationtype="signalmastlogic" fsensorname="IY:AUTO:0006:forward" rsensorname="IY:AUTO:0006:reverse">
+      <systemName>IY:AUTO:0006</systemName>
+      <userName>blk 3 west:N Passing Siding (Trailing)</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">N Passing Siding (Trailing)</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0007" userName="siding inlet:siding bumper" creationtype="signalmastlogic" fsensorname="IY:AUTO:0007:forward" rsensorname="IY:AUTO:0007:reverse">
+      <systemName>IY:AUTO:0007</systemName>
+      <userName>siding inlet:siding bumper</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">siding bumper</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0008" userName="N Passing Siding (Trailing):blk 2 west" creationtype="signalmastlogic" fsensorname="IY:AUTO:0008:forward" rsensorname="IY:AUTO:0008:reverse">
+      <systemName>IY:AUTO:0008</systemName>
+      <userName>N Passing Siding (Trailing):blk 2 west</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">blk 2 west</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0009" userName="N Passing Siding (Trailing):siding inlet" creationtype="signalmastlogic" fsensorname="IY:AUTO:0009:forward" rsensorname="IY:AUTO:0009:reverse">
+      <systemName>IY:AUTO:0009</systemName>
+      <userName>N Passing Siding (Trailing):siding inlet</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">siding inlet</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0010" userName="N. Passing Siding (facing):siding inlet" creationtype="signalmastlogic" fsensorname="IY:AUTO:0010:forward" rsensorname="IY:AUTO:0010:reverse">
+      <systemName>IY:AUTO:0010</systemName>
+      <userName>N. Passing Siding (facing):siding inlet</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">siding inlet</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0011" userName="N. Passing Siding (facing):blk 3 east" creationtype="signalmastlogic" fsensorname="IY:AUTO:0011:forward" rsensorname="IY:AUTO:0011:reverse">
+      <systemName>IY:AUTO:0011</systemName>
+      <userName>N. Passing Siding (facing):blk 3 east</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">blk 3 east</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0012" userName="N. Passing Siding (facing):siding bumper" creationtype="signalmastlogic" fsensorname="IY:AUTO:0012:forward" rsensorname="IY:AUTO:0012:reverse">
+      <systemName>IY:AUTO:0012</systemName>
+      <userName>N. Passing Siding (facing):siding bumper</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">siding bumper</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0013" userName="N. Passing Siding (Dwarf):blk 2 west" creationtype="signalmastlogic" fsensorname="IY:AUTO:0013:forward" rsensorname="IY:AUTO:0013:reverse">
+      <systemName>IY:AUTO:0013</systemName>
+      <userName>N. Passing Siding (Dwarf):blk 2 west</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">blk 2 west</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0014" userName="N. Passing Siding (Dwarf):blk 3 east" creationtype="signalmastlogic" fsensorname="IY:AUTO:0014:forward" rsensorname="IY:AUTO:0014:reverse">
+      <systemName>IY:AUTO:0014</systemName>
+      <userName>N. Passing Siding (Dwarf):blk 3 east</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">blk 3 east</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </section>
+  </sections>
+  <warrants class="jmri.jmrit.logix.configurexml.WarrantManagerXml" />
+  <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
+    <logicDelay>500</logicDelay>
+    <signalmastlogic source="blk 2 west">
+      <sourceSignalMast>blk 2 west</sourceSignalMast>
+      <destinationMast destination="blk 1 west">
+        <destinationSignalMast>blk 1 west</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>blk 2 west:blk 1 west</associatedSection>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="blk 1 west">
+      <sourceSignalMast>blk 1 west</sourceSignalMast>
+      <destinationMast destination="west bound bumper">
+        <destinationSignalMast>west bound bumper</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>blk 1 west:west bound bumper</associatedSection>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="blk 2 east">
+      <sourceSignalMast>blk 2 east</sourceSignalMast>
+      <destinationMast destination="N. Passing Siding (facing)">
+        <destinationSignalMast>N. Passing Siding (facing)</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>blk 2 east:N. Passing Siding (facing)</associatedSection>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="blk 3 east">
+      <sourceSignalMast>blk 3 east</sourceSignalMast>
+      <destinationMast destination="blk 4 east">
+        <destinationSignalMast>blk 4 east</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>blk 3 east:blk 4 east</associatedSection>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="blk 4 east">
+      <sourceSignalMast>blk 4 east</sourceSignalMast>
+      <destinationMast destination="east bound bumper">
+        <destinationSignalMast>east bound bumper</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>blk 4 east:east bound bumper</associatedSection>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="blk 3 west">
+      <sourceSignalMast>blk 3 west</sourceSignalMast>
+      <destinationMast destination="N Passing Siding (Trailing)">
+        <destinationSignalMast>N Passing Siding (Trailing)</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>blk 3 west:N Passing Siding (Trailing)</associatedSection>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="siding inlet">
+      <sourceSignalMast>siding inlet</sourceSignalMast>
+      <destinationMast destination="siding bumper">
+        <destinationSignalMast>siding bumper</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>siding inlet:siding bumper</associatedSection>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="N Passing Siding (Trailing)">
+      <sourceSignalMast>N Passing Siding (Trailing)</sourceSignalMast>
+      <destinationMast destination="blk 2 west">
+        <destinationSignalMast>blk 2 west</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>N Passing Siding (Trailing):blk 2 west</associatedSection>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+      <destinationMast destination="siding inlet">
+        <destinationSignalMast>siding inlet</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>N Passing Siding (Trailing):siding inlet</associatedSection>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="N. Passing Siding (facing)">
+      <sourceSignalMast>N. Passing Siding (facing)</sourceSignalMast>
+      <destinationMast destination="siding inlet">
+        <destinationSignalMast>siding inlet</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>N. Passing Siding (facing):siding inlet</associatedSection>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+      <destinationMast destination="blk 3 east">
+        <destinationSignalMast>blk 3 east</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>N. Passing Siding (facing):blk 3 east</associatedSection>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+      <destinationMast destination="siding bumper">
+        <destinationSignalMast>siding bumper</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>N. Passing Siding (facing):siding bumper</associatedSection>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="N. Passing Siding (Dwarf)">
+      <sourceSignalMast>N. Passing Siding (Dwarf)</sourceSignalMast>
+      <destinationMast destination="blk 2 west">
+        <destinationSignalMast>blk 2 west</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>N. Passing Siding (Dwarf):blk 2 west</associatedSection>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+      <destinationMast destination="blk 3 east">
+        <destinationSignalMast>blk 3 east</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>yes</useLayoutEditor>
+        <useLayoutEditorTurnouts>yes</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>yes</useLayoutEditorBlocks>
+        <associatedSection>N. Passing Siding (Dwarf):blk 3 east</associatedSection>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+  </signalmastlogics>
+  <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Sun Mar 01 08:11:26 CST 2020" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="My Layout" x="3" y="16" windowheight="734" windowwidth="1036" panelheight="376" panelwidth="946" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="no" snaponmove="no" antialiasing="no" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+    <layoutTrackDrawingOptions name="My Layout" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
+      <mainBallastColor>#000000</mainBallastColor>
+      <mainBallastWidth>0</mainBallastWidth>
+      <mainBlockLineDashPercentageX10>0</mainBlockLineDashPercentageX10>
+      <mainBlockLineWidth>4</mainBlockLineWidth>
+      <mainRailColor>#404040</mainRailColor>
+      <mainRailCount>1</mainRailCount>
+      <mainRailGap>0</mainRailGap>
+      <mainRailWidth>2</mainRailWidth>
+      <mainTieColor>#000000</mainTieColor>
+      <mainTieGap>0</mainTieGap>
+      <mainTieLength>0</mainTieLength>
+      <mainTieWidth>0</mainTieWidth>
+      <sideBallastColor>#000000</sideBallastColor>
+      <sideBallastWidth>0</sideBallastWidth>
+      <sideBlockLineDashPercentageX10>0</sideBlockLineDashPercentageX10>
+      <sideBlockLineWidth>2</sideBlockLineWidth>
+      <sideRailColor>#404040</sideRailColor>
+      <sideRailCount>1</sideRailCount>
+      <sideRailGap>0</sideRailGap>
+      <sideRailWidth>1</sideRailWidth>
+      <sideTieColor>#000000</sideTieColor>
+      <sideTieGap>0</sideTieGap>
+      <sideTieLength>0</sideTieLength>
+      <sideTieWidth>0</sideTieWidth>
+    </layoutTrackDrawingOptions>
+    <sensoricon sensor="Blk Sensor 1" x="202" y="253" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <positionablelabel x="191" y="228" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="block 1" size="11" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <sensoricon sensor="Blk Sensor 2" x="392" y="250" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="Blk Sensor 3" x="637" y="253" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="Blk Sensor 4" x="788" y="248" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="Blk Sensor 5" x="625" y="174" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="N. Passing OS Detection" x="525" y="226" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <positionablelabel x="382" y="223" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="block 2" size="11" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="656" y="249" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="block 3" size="11" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="785" y="225" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="block 4" size="11" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="612" y="151" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="block 5" size="11" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <signalmasticon signalmast="siding bumper" x="705" y="168" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="54" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
+      <tooltip>siding dummy</tooltip>
+    </signalmasticon>
+    <signalmasticon signalmast="east bound bumper" x="844" y="297" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
+      <tooltip>east side dummy</tooltip>
+    </signalmasticon>
+    <signalmasticon signalmast="west bound bumper" x="113" y="275" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="271" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
+      <tooltip>West Bound Bumper</tooltip>
+    </signalmasticon>
+    <signalmasticon signalmast="N. Passing Siding (facing)" x="415" y="307" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="91" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
+      <tooltip>OS east</tooltip>
+    </signalmasticon>
+    <signalmasticon signalmast="blk 2 west" x="483" y="270" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="271" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
+      <tooltip>blk 2 west</tooltip>
+    </signalmasticon>
+    <signalmasticon signalmast="blk 2 east" x="253" y="299" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
+      <tooltip>blk 2 east</tooltip>
+    </signalmasticon>
+    <signalmasticon signalmast="blk 1 west" x="310" y="270" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
+      <tooltip>blk 1 west</tooltip>
+    </signalmasticon>
+    <signalmasticon signalmast="blk 3 east" x="538" y="309" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="85" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
+      <tooltip>blk 3 east</tooltip>
+    </signalmasticon>
+    <signalmasticon signalmast="N Passing Siding (Trailing)" x="595" y="276" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="271" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
+      <tooltip>OS west</tooltip>
+    </signalmasticon>
+    <signalmasticon signalmast="blk 4 east" x="643" y="309" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="92" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
+      <tooltip>blk 4 east</tooltip>
+    </signalmasticon>
+    <signalmasticon signalmast="blk 3 west" x="700" y="266" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="269" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
+      <tooltip>blk 3 west</tooltip>
+    </signalmasticon>
+    <positionablelabel x="513" y="206" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="OS Detection" size="11" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <signalmasticon signalmast="N. Passing Siding (Dwarf)" x="565" y="234" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="236" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml">
+      <tooltip>OS dwarf</tooltip>
+    </signalmasticon>
+    <layoutturnout ident="TO1" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="532.0" ycen="296.0" xa="512.0" ya="297.0" xb="552.0" yb="295.0" xc="555.0" yc="280.0" xd="512.0" yd="297.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="N. Passing Siding" blockname="My Block 6" connectaname="T1" connectbname="T2" connectcname="T3" signala1name="N. Passing A - Top Head" signala2name="N. Passing A - Bottom Head" signalb1name="N. Passing B - bottom Head" signalc1name="N. Passing C - Diverging Dwarf" />
+    <tracksegment ident="T1" blockname="My Block 6" connect1name="A1" type1="1" connect2name="TO1" type2="2" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T2" blockname="My Block 6" connect1name="TO1" type1="3" connect2name="A2" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T3" blockname="My Block 6" connect1name="TO1" type1="4" connect2name="A3" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T4" blockname="My Block 1" connect1name="EB3" type1="1" connect2name="A10" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="start" color="#000000" linewidth="2" length="2" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T5" blockname="My Block 1" connect1name="A10" type1="1" connect2name="A9" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T9" blockname="My Block 2" connect1name="A9" type1="1" connect2name="A8" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T10" blockname="My Block 2" connect1name="A8" type1="1" connect2name="A1" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T11" blockname="My Block 3" connect1name="A2" type1="1" connect2name="A5" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T12" blockname="My Block 4" connect1name="A5" type1="1" connect2name="A6" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T13" blockname="My Block 4" connect1name="A6" type1="1" connect2name="EB2" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="stop" color="#000000" linewidth="2" length="2" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T14" blockname="My Block 5" connect1name="A3" type1="1" connect2name="EB1" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="stop" color="#000000" linewidth="2" length="2" />
+      </decorations>
+    </tracksegment>
+    <positionablepoint ident="A1" type="1" x="478.0" y="295.0" connect1name="T1" connect2name="T10" eastboundsignalmast="N. Passing Siding (facing)" westboundsignalmast="blk 2 west" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A2" type="1" x="590.0" y="294.0" connect1name="T2" connect2name="T11" eastboundsignalmast="blk 3 east" westboundsignalmast="N Passing Siding (Trailing)" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A3" type="1" x="577.0" y="267.0" connect1name="T3" connect2name="T14" westboundsignalmast="N. Passing Siding (Dwarf)" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB1" type="2" x="727.0" y="162.0" connect1name="T14" eastboundsignalmast="siding bumper" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A5" type="1" x="697.0" y="296.0" connect1name="T11" connect2name="T12" eastboundsignalmast="blk 4 east" westboundsignalmast="blk 3 west" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A6" type="1" x="795.0" y="293.0" connect1name="T12" connect2name="T13" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB2" type="2" x="896.0" y="293.0" connect1name="T13" eastboundsignalmast="east bound bumper" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A8" type="1" x="403.0" y="294.0" connect1name="T9" connect2name="T10" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A9" type="1" x="305.0" y="295.0" connect1name="T5" connect2name="T9" eastboundsignalmast="blk 2 east" westboundsignalmast="blk 1 west" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A10" type="1" x="204.0" y="295.0" connect1name="T4" connect2name="T5" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB3" type="2" x="109.0" y="293.0" connect1name="T4" westboundsignalmast="west bound bumper" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+  </LayoutEditor>
+  <filehistory>
+    <operation>
+      <type>app</type>
+      <date>Tue Apr 14 10:31:40 CDT 2020</date>
+      <filename>JMRI program</filename>
+    </operation>
+    <operation>
+      <type>Load OK</type>
+      <date>Tue Apr 14 10:32:20 CDT 2020</date>
+      <filename>/C:/Documents%20and%20Settings/Lydia%20Kelly/JMRI/Compatible_Siding_Card.jmri/Compatible%20Card%20Panel.xml</filename>
+      <filehistory>
+        <operation>
+          <type>app</type>
+          <date>Tue Apr 14 09:36:07 CDT 2020</date>
+          <filename>JMRI program</filename>
+        </operation>
+        <operation>
+          <type>Load OK</type>
+          <date>Tue Apr 14 09:36:19 CDT 2020</date>
+          <filename>/C:/Documents%20and%20Settings/Lydia%20Kelly/JMRI/Compatible_Siding_Card.jmri/Compatible%20Card%20Panel.xml</filename>
+          <filehistory>
+            <operation>
+              <type>app</type>
+              <date>Mon Apr 13 16:24:17 CDT 2020</date>
+              <filename>JMRI program</filename>
+            </operation>
+            <operation>
+              <type>Load OK</type>
+              <date>Mon Apr 13 16:24:28 CDT 2020</date>
+              <filename>/C:/Documents%20and%20Settings/Lydia%20Kelly/JMRI/Compatible_Siding_Card.jmri/Compatible%20Card%20Panel.xml</filename>
+              <filehistory>
+                <operation>
+                  <type>app</type>
+                  <date>Sun Mar 01 08:11:25 CST 2020</date>
+                  <filename>JMRI program</filename>
+                </operation>
+                <operation>
+                  <type>Store</type>
+                  <date>Mon Mar 02 15:56:00 CST 2020</date>
+                  <filename />
+                </operation>
+              </filehistory>
+            </operation>
+            <operation>
+              <type>Store</type>
+              <date>Tue Apr 14 09:34:44 CDT 2020</date>
+              <filename />
+            </operation>
+          </filehistory>
+        </operation>
+        <operation>
+          <type>Store</type>
+          <date>Tue Apr 14 10:31:20 CDT 2020</date>
+          <filename />
+        </operation>
+      </filehistory>
+    </operation>
+    <operation>
+      <type>Store</type>
+      <date>Tue Apr 14 13:07:20 CDT 2020</date>
+      <filename />
+    </operation>
+  </filehistory>
+  <!--Written by JMRI version 4.17.3+R12d2ded on Tue Apr 14 13:07:20 CDT 2020-->
+</layout-config>

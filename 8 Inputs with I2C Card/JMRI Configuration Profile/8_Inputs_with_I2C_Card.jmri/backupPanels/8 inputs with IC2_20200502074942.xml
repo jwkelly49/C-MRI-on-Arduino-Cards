@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/panelfile-2-9-6.xsl" type="text/xsl"?>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-2-9-6.xsd">
+  <jmriversion>
+    <major>4</major>
+    <minor>18</minor>
+    <test>0</test>
+    <modifier />
+  </jmriversion>
+  <sensors class="jmri.jmrix.internal.configurexml.InternalSensorManagerXml">
+    <defaultInitialState>unknown</defaultInitialState>
+    <sensor inverted="false">
+      <systemName>ISCLOCKRUNNING</systemName>
+    </sensor>
+  </sensors>
+  <sensors class="jmri.jmrix.cmri.serial.configurexml.SerialSensorManagerXml">
+    <sensor inverted="false">
+      <systemName>CS1</systemName>
+      <userName>Input 1</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS2</systemName>
+      <userName>Input 2</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS3</systemName>
+      <userName>Input 3</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS4</systemName>
+      <userName>Input 4</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS5</systemName>
+      <userName>Input 5</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS6</systemName>
+      <userName>Input 6</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS7</systemName>
+      <userName>Input 7</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS8</systemName>
+      <userName>Input 8</userName>
+    </sensor>
+  </sensors>
+  <lights class="jmri.jmrix.cmri.serial.configurexml.SerialLightManagerXml">
+    <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
+      <systemName>CL1</systemName>
+      <userName>Output 1 LED</userName>
+    </light>
+    <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
+      <systemName>CL2</systemName>
+      <userName>Output 2</userName>
+    </light>
+    <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
+      <systemName>CL3</systemName>
+      <userName>Output 3</userName>
+    </light>
+    <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
+      <systemName>CL4</systemName>
+      <userName>Output 4</userName>
+    </light>
+    <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
+      <systemName>CL5</systemName>
+      <userName>Output 5</userName>
+    </light>
+    <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
+      <systemName>CL6</systemName>
+      <userName>Output 6</userName>
+    </light>
+    <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
+      <systemName>CL7</systemName>
+      <userName>Output 7</userName>
+    </light>
+    <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
+      <systemName>CL8</systemName>
+      <userName>Output 8</userName>
+    </light>
+  </lights>
+  <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
+    <memory value="7:04 AM">
+      <systemName>IMCURRENTTIME</systemName>
+    </memory>
+    <memory value="1.0">
+      <systemName>IMRATEFACTOR</systemName>
+    </memory>
+  </memories>
+  <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
+    <logicDelay>500</logicDelay>
+  </signalmastlogics>
+  <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Mon Apr 20 15:24:31 CDT 2020" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
+  <filehistory>
+    <operation>
+      <type>app</type>
+      <date>Fri May 01 18:13:11 CDT 2020</date>
+      <filename>JMRI program</filename>
+    </operation>
+    <operation>
+      <type>Load OK</type>
+      <date>Fri May 01 18:13:27 CDT 2020</date>
+      <filename>/C:/Users/jwkel/Google%20Drive/JMRI/8_inputs_with_IC2_Card.jmri/8%20inputs%20with%20IC2.xml</filename>
+      <filehistory>
+        <operation>
+          <type>app</type>
+          <date>Fri May 01 18:00:04 CDT 2020</date>
+          <filename>JMRI program</filename>
+        </operation>
+        <operation>
+          <type>Load OK</type>
+          <date>Fri May 01 18:00:51 CDT 2020</date>
+          <filename>/C:/Users/jwkel/Google%20Drive/JMRI/8_inputs_with_IC2_Card.jmri/8%20inputs%20with%20IC2.xml</filename>
+          <filehistory>
+            <operation>
+              <type>app</type>
+              <date>Fri May 01 11:11:30 CDT 2020</date>
+              <filename>JMRI program</filename>
+            </operation>
+            <operation>
+              <type>Load OK</type>
+              <date>Fri May 01 11:12:11 CDT 2020</date>
+              <filename>/C:/Users/jwkel/Google%20Drive/JMRI/8_inputs_with_IC2_Card.jmri/8%20input%208%20output%20panel.xml</filename>
+              <filehistory>
+                <operation>
+                  <type>app</type>
+                  <date>Mon Apr 20 16:05:03 CDT 2020</date>
+                  <filename>JMRI program</filename>
+                </operation>
+                <operation>
+                  <type>Load OK</type>
+                  <date>Mon Apr 20 16:05:24 CDT 2020</date>
+                  <filename>/C:/Users/jwkel/JMRI/8_input_8_output_card.jmri/8%20input%208%20output%20panel.xml</filename>
+                  <filehistory>
+                    <operation>
+                      <type>app</type>
+                      <date>Mon Apr 20 15:24:30 CDT 2020</date>
+                      <filename>JMRI program</filename>
+                    </operation>
+                    <operation>
+                      <type>Store</type>
+                      <date>Mon Apr 20 16:04:47 CDT 2020</date>
+                      <filename />
+                    </operation>
+                  </filehistory>
+                </operation>
+                <operation>
+                  <type>Store</type>
+                  <date>Mon Apr 20 16:09:36 CDT 2020</date>
+                  <filename />
+                </operation>
+              </filehistory>
+            </operation>
+            <operation>
+              <type>Store</type>
+              <date>Fri May 01 11:15:29 CDT 2020</date>
+              <filename />
+            </operation>
+          </filehistory>
+        </operation>
+        <operation>
+          <type>Load OK</type>
+          <date>Fri May 01 18:01:45 CDT 2020</date>
+          <filename>/C:/Users/jwkel/Google%20Drive/JMRI/8_inputs_with_IC2_Card.jmri/8%20inputs%20with%20IC2.xml</filename>
+          <filehistory>
+            <operation>
+              <type>app</type>
+              <date>Fri May 01 11:11:30 CDT 2020</date>
+              <filename>JMRI program</filename>
+            </operation>
+            <operation>
+              <type>Load OK</type>
+              <date>Fri May 01 11:12:11 CDT 2020</date>
+              <filename>/C:/Users/jwkel/Google%20Drive/JMRI/8_inputs_with_IC2_Card.jmri/8%20input%208%20output%20panel.xml</filename>
+              <filehistory>
+                <operation>
+                  <type>app</type>
+                  <date>Mon Apr 20 16:05:03 CDT 2020</date>
+                  <filename>JMRI program</filename>
+                </operation>
+                <operation>
+                  <type>Load OK</type>
+                  <date>Mon Apr 20 16:05:24 CDT 2020</date>
+                  <filename>/C:/Users/jwkel/JMRI/8_input_8_output_card.jmri/8%20input%208%20output%20panel.xml</filename>
+                  <filehistory>
+                    <operation>
+                      <type>app</type>
+                      <date>Mon Apr 20 15:24:30 CDT 2020</date>
+                      <filename>JMRI program</filename>
+                    </operation>
+                    <operation>
+                      <type>Store</type>
+                      <date>Mon Apr 20 16:04:47 CDT 2020</date>
+                      <filename />
+                    </operation>
+                  </filehistory>
+                </operation>
+                <operation>
+                  <type>Store</type>
+                  <date>Mon Apr 20 16:09:36 CDT 2020</date>
+                  <filename />
+                </operation>
+              </filehistory>
+            </operation>
+            <operation>
+              <type>Store</type>
+              <date>Fri May 01 11:15:29 CDT 2020</date>
+              <filename />
+            </operation>
+          </filehistory>
+        </operation>
+        <operation>
+          <type>Store</type>
+          <date>Fri May 01 18:08:10 CDT 2020</date>
+          <filename />
+        </operation>
+      </filehistory>
+    </operation>
+    <operation>
+      <type>Store</type>
+      <date>Sat May 02 07:04:50 CDT 2020</date>
+      <filename />
+    </operation>
+  </filehistory>
+  <!--Written by JMRI version 4.18+R37ad3d0 on Sat May 02 07:04:50 CDT 2020-->
+</layout-config>

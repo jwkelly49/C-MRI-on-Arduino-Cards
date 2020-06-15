@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/panelfile-2-9-6.xsl" type="text/xsl"?>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-2-9-6.xsd">
+  <jmriversion>
+    <major>4</major>
+    <minor>18</minor>
+    <test>0</test>
+    <modifier />
+  </jmriversion>
+  <sensors class="jmri.jmrix.internal.configurexml.InternalSensorManagerXml">
+    <defaultInitialState>unknown</defaultInitialState>
+    <sensor inverted="false">
+      <systemName>IS1</systemName>
+      <userName>Set Route a</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS2</systemName>
+      <userName>Set Route b</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS3</systemName>
+      <userName>Set Route c</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS4</systemName>
+      <userName>Set Route d</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS5</systemName>
+      <userName>Set Route e</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS1001</systemName>
+      <userName>set Node 1 route a</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS1002</systemName>
+      <userName>set Node 1 route b</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS1003</systemName>
+      <userName>set Node 1 route c</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS1004</systemName>
+      <userName>set Node 1 route d</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS1005</systemName>
+      <userName>set Node 1 route e</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS2001</systemName>
+      <userName>set Node 2 route a</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS2002</systemName>
+      <userName>set Node 2 route b</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS2003</systemName>
+      <userName>set Node 2 route c</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS2004</systemName>
+      <userName>set Node 2 route d</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS3001</systemName>
+      <userName>set Node 3 route a</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS3002</systemName>
+      <userName>set Node 3 route b</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS3003</systemName>
+      <userName>set Node 3 route c</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS3004</systemName>
+      <userName>set Node 3 route d</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS4001</systemName>
+      <userName>set Node 4 route a</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS4002</systemName>
+      <userName>set Node 4 route b</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS4003</systemName>
+      <userName>set Node 4 route c</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS4004</systemName>
+      <userName>set Node 4 route d</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>ISCLOCKRUNNING</systemName>
+    </sensor>
+  </sensors>
+  <sensors class="jmri.jmrix.cmri.serial.configurexml.SerialSensorManagerXml">
+    <sensor inverted="false">
+      <systemName>CS1</systemName>
+      <userName>DUMMY</userName>
+    </sensor>
+  </sensors>
+  <turnouts class="jmri.jmrix.cmri.serial.configurexml.SerialTurnoutManagerXml">
+    <operations automate="false">
+      <operation name="NoFeedback" class="jmri.configurexml.turnoutoperations.NoFeedbackTurnoutOperationXml" interval="300" maxtries="2" />
+      <operation name="Raw" class="jmri.configurexml.turnoutoperations.RawTurnoutOperationXml" interval="300" maxtries="1" />
+      <operation name="Sensor" class="jmri.configurexml.turnoutoperations.SensorTurnoutOperationXml" interval="300" maxtries="3" />
+    </operations>
+    <defaultclosedspeed>Normal</defaultclosedspeed>
+    <defaultthrownspeed>Restricted</defaultthrownspeed>
+    <turnout feedback="DIRECT" inverted="false" numBits="2" controlType="1" automate="Off">
+      <systemName>CT1</systemName>
+      <userName>A1</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" numBits="2" controlType="1" automate="Off">
+      <systemName>CT3</systemName>
+      <userName>B1</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" numBits="2" controlType="1" automate="Off">
+      <systemName>CT5</systemName>
+      <userName>C1</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" numBits="2" controlType="1" automate="Off">
+      <systemName>CT7</systemName>
+      <userName>D1</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" numBits="2" controlType="1" automate="Off">
+      <systemName>CT1001</systemName>
+      <userName>node 1 A1</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" numBits="2" controlType="1" automate="Off">
+      <systemName>CT1003</systemName>
+      <userName>node 1 B1</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" numBits="2" controlType="1" automate="Off">
+      <systemName>CT1005</systemName>
+      <userName>node 1 C1</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" numBits="2" controlType="1" automate="Off">
+      <systemName>CT1007</systemName>
+      <userName>node 1 D1</userName>
+    </turnout>
+  </turnouts>
+  <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
+    <memory value="2:48 PM">
+      <systemName>IMCURRENTTIME</systemName>
+    </memory>
+    <memory value="1.0">
+      <systemName>IMRATEFACTOR</systemName>
+    </memory>
+  </memories>
+  <routes class="jmri.managers.configurexml.DefaultRouteManagerXml">
+    <route userName="Route a">
+      <systemName>IR:AUTO:0001</systemName>
+      <userName>Route a</userName>
+      <routeOutputTurnout systemName="A1" state="CLOSED" />
+      <routeOutputTurnout systemName="B1" state="CLOSED" />
+      <routeOutputTurnout systemName="C1" state="CLOSED" />
+      <routeOutputTurnout systemName="D1" state="CLOSED" />
+      <routeSensor systemName="IS1" mode="onActive" />
+    </route>
+    <route userName="Route b">
+      <systemName>IR:AUTO:0002</systemName>
+      <userName>Route b</userName>
+      <routeOutputTurnout systemName="A1" state="THROWN" />
+      <routeOutputTurnout systemName="B1" state="THROWN" />
+      <routeOutputTurnout systemName="C1" state="THROWN" />
+      <routeOutputTurnout systemName="D1" state="THROWN" />
+      <routeSensor systemName="IS2" mode="onActive" />
+    </route>
+    <route userName="Route c">
+      <systemName>IR:AUTO:0003</systemName>
+      <userName>Route c</userName>
+      <routeOutputTurnout systemName="A1" state="THROWN" />
+      <routeOutputTurnout systemName="B1" state="CLOSED" />
+      <routeOutputTurnout systemName="C1" state="THROWN" />
+      <routeOutputTurnout systemName="D1" state="THROWN" />
+      <routeSensor systemName="IS3" mode="onActive" />
+    </route>
+    <route userName="Route d">
+      <systemName>IR:AUTO:0004</systemName>
+      <userName>Route d</userName>
+      <routeOutputTurnout systemName="A1" state="THROWN" />
+      <routeOutputTurnout systemName="B1" state="THROWN" />
+      <routeOutputTurnout systemName="C1" state="CLOSED" />
+      <routeOutputTurnout systemName="D1" state="THROWN" />
+      <routeSensor systemName="IS4" mode="onActive" />
+    </route>
+    <route userName="Route e">
+      <systemName>IR:AUTO:0005</systemName>
+      <userName>Route e</userName>
+      <routeOutputTurnout systemName="A1" state="THROWN" />
+      <routeOutputTurnout systemName="B1" state="THROWN" />
+      <routeOutputTurnout systemName="C1" state="THROWN" />
+      <routeOutputTurnout systemName="D1" state="CLOSED" />
+      <routeSensor systemName="IS5" mode="onActive" />
+    </route>
+  </routes>
+  <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
+    <logicDelay>500</logicDelay>
+  </signalmastlogics>
+  <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Fri Mar 13 16:02:32 CDT 2020" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
+  <filehistory>
+    <operation>
+      <type>app</type>
+      <date>Thu Jun 04 12:38:25 CDT 2020</date>
+      <filename>JMRI program</filename>
+    </operation>
+    <operation>
+      <type>Load OK</type>
+      <date>Thu Jun 04 12:38:36 CDT 2020</date>
+      <filename>/C:/Users/jwkel/Google%20Drive/JMRI/Tortoise_No_Matrix_Routing_card.jmri/TORTOISE%20NO%20MATRIX%20ROUTING%20CARD.xml</filename>
+      <filehistory>
+        <operation>
+          <type>app</type>
+          <date>Thu Jun 04 11:54:05 CDT 2020</date>
+          <filename>JMRI program</filename>
+        </operation>
+        <operation>
+          <type>Load OK</type>
+          <date>Thu Jun 04 11:54:11 CDT 2020</date>
+          <filename>/C:/Users/jwkel/Google%20Drive/JMRI/Tortoise_No_Matrix_Routing_card.jmri/TORTOISE%20NO%20MATRIX%20ROUTING%20CARD.xml</filename>
+          <filehistory>
+            <operation>
+              <type>app</type>
+              <date>Thu Jun 04 09:24:43 CDT 2020</date>
+              <filename>JMRI program</filename>
+            </operation>
+            <operation>
+              <type>Load OK</type>
+              <date>Thu Jun 04 09:24:51 CDT 2020</date>
+              <filename>/C:/Users/jwkel/Google%20Drive/JMRI/Tortoise_No_Matrix_Routing_card.jmri/TORTOISE%20MATRIX.xml</filename>
+              <filehistory>
+                <operation>
+                  <type>app</type>
+                  <date>Fri Mar 20 14:54:56 CDT 2020</date>
+                  <filename>JMRI program</filename>
+                </operation>
+                <operation>
+                  <type>Load OK</type>
+                  <date>Fri Mar 20 14:55:36 CDT 2020</date>
+                  <filename>/C:/Documents%20and%20Settings/Lydia%20Kelly/JMRI/Compatible_Siding_Card.jmri/TORTOISE%20MATRIX.xml</filename>
+                  <filehistory>
+                    <operation>
+                      <type>app</type>
+                      <date>Wed Mar 18 07:38:39 CDT 2020</date>
+                      <filename>JMRI program</filename>
+                    </operation>
+                    <operation>
+                      <type>Load OK</type>
+                      <date>Wed Mar 18 07:39:15 CDT 2020</date>
+                      <filename>/C:/Documents%20and%20Settings/Lydia%20Kelly/JMRI/Compatible_Siding_Card.jmri/TORTOISE%20MATRIX.xml</filename>
+                      <filehistory>
+                        <operation>
+                          <type>app</type>
+                          <date>Tue Mar 17 19:16:11 CDT 2020</date>
+                          <filename>JMRI program</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Tue Mar 17 19:16:34 CDT 2020</date>
+                          <filename>/C:/Documents%20and%20Settings/Lydia%20Kelly/JMRI/Compatible_Siding_Card.jmri/TORTOISE%20MATRIX.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Store</type>
+                          <date>Wed Mar 18 07:33:55 CDT 2020</date>
+                          <filename />
+                        </operation>
+                      </filehistory>
+                    </operation>
+                    <operation>
+                      <type>Store</type>
+                      <date>Wed Mar 18 09:41:45 CDT 2020</date>
+                      <filename />
+                    </operation>
+                  </filehistory>
+                </operation>
+                <operation>
+                  <type>Store</type>
+                  <date>Fri Mar 20 15:00:35 CDT 2020</date>
+                  <filename />
+                </operation>
+              </filehistory>
+            </operation>
+            <operation>
+              <type>Store</type>
+              <date>Thu Jun 04 11:48:45 CDT 2020</date>
+              <filename />
+            </operation>
+          </filehistory>
+        </operation>
+        <operation>
+          <type>Store</type>
+          <date>Thu Jun 04 12:38:05 CDT 2020</date>
+          <filename />
+        </operation>
+      </filehistory>
+    </operation>
+    <operation>
+      <type>Store</type>
+      <date>Thu Jun 04 14:48:27 CDT 2020</date>
+      <filename />
+    </operation>
+  </filehistory>
+  <!--Written by JMRI version 4.18+R37ad3d0 on Thu Jun 04 14:48:27 CDT 2020-->
+</layout-config>

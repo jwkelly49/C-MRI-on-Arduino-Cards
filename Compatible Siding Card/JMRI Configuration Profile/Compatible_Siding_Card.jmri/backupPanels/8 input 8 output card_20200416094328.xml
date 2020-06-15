@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/panelfile-2-9-6.xsl" type="text/xsl"?>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-2-9-6.xsd">
+  <jmriversion>
+    <major>4</major>
+    <minor>17</minor>
+    <test>3</test>
+    <modifier />
+  </jmriversion>
+  <sensors class="jmri.jmrix.internal.configurexml.InternalSensorManagerXml">
+    <defaultInitialState>unknown</defaultInitialState>
+    <sensor inverted="false">
+      <systemName>ISCLOCKRUNNING</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0001:forward</systemName>
+      <userName>IY:AUTO:0001:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0001:reverse</systemName>
+      <userName>IY:AUTO:0001:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0002:forward</systemName>
+      <userName>IY:AUTO:0002:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0002:reverse</systemName>
+      <userName>IY:AUTO:0002:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0003:forward</systemName>
+      <userName>IY:AUTO:0003:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0003:reverse</systemName>
+      <userName>IY:AUTO:0003:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0004:forward</systemName>
+      <userName>IY:AUTO:0004:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0004:reverse</systemName>
+      <userName>IY:AUTO:0004:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0005:forward</systemName>
+      <userName>IY:AUTO:0005:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0005:reverse</systemName>
+      <userName>IY:AUTO:0005:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0006:forward</systemName>
+      <userName>IY:AUTO:0006:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0006:reverse</systemName>
+      <userName>IY:AUTO:0006:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0007:forward</systemName>
+      <userName>IY:AUTO:0007:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0007:reverse</systemName>
+      <userName>IY:AUTO:0007:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0008:forward</systemName>
+      <userName>IY:AUTO:0008:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0008:reverse</systemName>
+      <userName>IY:AUTO:0008:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0009:forward</systemName>
+      <userName>IY:AUTO:0009:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0009:reverse</systemName>
+      <userName>IY:AUTO:0009:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0010:forward</systemName>
+      <userName>IY:AUTO:0010:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0010:reverse</systemName>
+      <userName>IY:AUTO:0010:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0011:forward</systemName>
+      <userName>IY:AUTO:0011:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0011:reverse</systemName>
+      <userName>IY:AUTO:0011:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0012:forward</systemName>
+      <userName>IY:AUTO:0012:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0012:reverse</systemName>
+      <userName>IY:AUTO:0012:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0013:forward</systemName>
+      <userName>IY:AUTO:0013:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0013:reverse</systemName>
+      <userName>IY:AUTO:0013:reverse</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0014:forward</systemName>
+      <userName>IY:AUTO:0014:forward</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS:IY:AUTO:0014:reverse</systemName>
+      <userName>IY:AUTO:0014:reverse</userName>
+    </sensor>
+  </sensors>
+  <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
+    <memory value="9:38 AM">
+      <systemName>IMCURRENTTIME</systemName>
+    </memory>
+    <memory value="1.0">
+      <systemName>IMRATEFACTOR</systemName>
+    </memory>
+  </memories>
+  <signalmasts class="jmri.managers.configurexml.DefaultSignalMastManagerXml" />
+  <signalgroups class="jmri.managers.configurexml.DefaultSignalGroupManagerXml" />
+  <blocks class="jmri.configurexml.BlockManagerXml">
+    <defaultspeed>Normal</defaultspeed>
+    <block systemName="IB:AUTO:0002">
+      <systemName>IB:AUTO:0002</systemName>
+      <userName>My Block 1</userName>
+    </block>
+    <block systemName="IB:AUTO:0003">
+      <systemName>IB:AUTO:0003</systemName>
+      <userName>My Block 2</userName>
+    </block>
+    <block systemName="IB:AUTO:0004">
+      <systemName>IB:AUTO:0004</systemName>
+      <userName>My Block 3</userName>
+    </block>
+    <block systemName="IB:AUTO:0005">
+      <systemName>IB:AUTO:0005</systemName>
+      <userName>My Block 4</userName>
+    </block>
+    <block systemName="IB:AUTO:0006">
+      <systemName>IB:AUTO:0006</systemName>
+      <userName>My Block 5</userName>
+    </block>
+    <block systemName="IB:AUTO:0007">
+      <systemName>IB:AUTO:0007</systemName>
+      <userName>My Block 6</userName>
+    </block>
+    <block systemName="IB:AUTO:0002" length="0.0" curve="0">
+      <systemName>IB:AUTO:0002</systemName>
+      <userName>My Block 1</userName>
+      <permissive>no</permissive>
+      <path todir="64" fromdir="128" block="IB:AUTO:0003">
+        <beansetting setting="2">
+          <turnout systemName="N. Passing Siding" />
+        </beansetting>
+      </path>
+      <path todir="80" fromdir="160" block="IB:AUTO:0004">
+        <beansetting setting="4">
+          <turnout systemName="N. Passing Siding" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB:AUTO:0003" length="0.0" curve="0">
+      <systemName>IB:AUTO:0003</systemName>
+      <userName>My Block 2</userName>
+      <permissive>no</permissive>
+      <path todir="128" fromdir="64" block="IB:AUTO:0002">
+        <beansetting setting="2">
+          <turnout systemName="N. Passing Siding" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB:AUTO:0004" length="0.0" curve="0">
+      <systemName>IB:AUTO:0004</systemName>
+      <userName>My Block 3</userName>
+      <permissive>no</permissive>
+      <path todir="160" fromdir="80" block="IB:AUTO:0002">
+        <beansetting setting="4">
+          <turnout systemName="N. Passing Siding" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB:AUTO:0005" length="0.0" curve="0">
+      <systemName>IB:AUTO:0005</systemName>
+      <userName>My Block 4</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB:AUTO:0006" length="0.0" curve="0">
+      <systemName>IB:AUTO:0006</systemName>
+      <userName>My Block 5</userName>
+      <permissive>no</permissive>
+    </block>
+    <block systemName="IB:AUTO:0007" length="0.0" curve="0">
+      <systemName>IB:AUTO:0007</systemName>
+      <userName>My Block 6</userName>
+      <permissive>no</permissive>
+    </block>
+  </blocks>
+  <oblocks class="jmri.jmrit.logix.configurexml.OBlockManagerXml" />
+  <layoutblocks class="jmri.jmrit.display.layoutEditor.configurexml.LayoutBlockManagerXml" blockrouting="yes" />
+  <sections class="jmri.configurexml.SectionManagerXml">
+    <section systemName="IY:AUTO:0001" userName="blk 2 west:blk 1 west" creationtype="signalmastlogic" fsensorname="IY:AUTO:0001:forward" rsensorname="IY:AUTO:0001:reverse">
+      <systemName>IY:AUTO:0001</systemName>
+      <userName>blk 2 west:blk 1 west</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">blk 1 west</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0002" userName="blk 1 west:west bound bumper" creationtype="signalmastlogic" fsensorname="IY:AUTO:0002:forward" rsensorname="IY:AUTO:0002:reverse">
+      <systemName>IY:AUTO:0002</systemName>
+      <userName>blk 1 west:west bound bumper</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">west bound bumper</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0003" userName="blk 2 east:N. Passing Siding (facing)" creationtype="signalmastlogic" fsensorname="IY:AUTO:0003:forward" rsensorname="IY:AUTO:0003:reverse">
+      <systemName>IY:AUTO:0003</systemName>
+      <userName>blk 2 east:N. Passing Siding (facing)</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">N. Passing Siding (facing)</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0004" userName="blk 3 east:blk 4 east" creationtype="signalmastlogic" fsensorname="IY:AUTO:0004:forward" rsensorname="IY:AUTO:0004:reverse">
+      <systemName>IY:AUTO:0004</systemName>
+      <userName>blk 3 east:blk 4 east</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">blk 4 east</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0005" userName="blk 4 east:east bound bumper" creationtype="signalmastlogic" fsensorname="IY:AUTO:0005:forward" rsensorname="IY:AUTO:0005:reverse">
+      <systemName>IY:AUTO:0005</systemName>
+      <userName>blk 4 east:east bound bumper</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">east bound bumper</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0006" userName="blk 3 west:N Passing Siding (Trailing)" creationtype="signalmastlogic" fsensorname="IY:AUTO:0006:forward" rsensorname="IY:AUTO:0006:reverse">
+      <systemName>IY:AUTO:0006</systemName>
+      <userName>blk 3 west:N Passing Siding (Trailing)</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">N Passing Siding (Trailing)</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0007" userName="siding inlet:siding bumper" creationtype="signalmastlogic" fsensorname="IY:AUTO:0007:forward" rsensorname="IY:AUTO:0007:reverse">
+      <systemName>IY:AUTO:0007</systemName>
+      <userName>siding inlet:siding bumper</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">siding bumper</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0008" userName="N Passing Siding (Trailing):blk 2 west" creationtype="signalmastlogic" fsensorname="IY:AUTO:0008:forward" rsensorname="IY:AUTO:0008:reverse">
+      <systemName>IY:AUTO:0008</systemName>
+      <userName>N Passing Siding (Trailing):blk 2 west</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">blk 2 west</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0009" userName="N Passing Siding (Trailing):siding inlet" creationtype="signalmastlogic" fsensorname="IY:AUTO:0009:forward" rsensorname="IY:AUTO:0009:reverse">
+      <systemName>IY:AUTO:0009</systemName>
+      <userName>N Passing Siding (Trailing):siding inlet</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">siding inlet</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0010" userName="N. Passing Siding (facing):siding inlet" creationtype="signalmastlogic" fsensorname="IY:AUTO:0010:forward" rsensorname="IY:AUTO:0010:reverse">
+      <systemName>IY:AUTO:0010</systemName>
+      <userName>N. Passing Siding (facing):siding inlet</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">siding inlet</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0011" userName="N. Passing Siding (facing):blk 3 east" creationtype="signalmastlogic" fsensorname="IY:AUTO:0011:forward" rsensorname="IY:AUTO:0011:reverse">
+      <systemName>IY:AUTO:0011</systemName>
+      <userName>N. Passing Siding (facing):blk 3 east</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">blk 3 east</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0012" userName="N. Passing Siding (facing):siding bumper" creationtype="signalmastlogic" fsensorname="IY:AUTO:0012:forward" rsensorname="IY:AUTO:0012:reverse">
+      <systemName>IY:AUTO:0012</systemName>
+      <userName>N. Passing Siding (facing):siding bumper</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">siding bumper</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0013" userName="N. Passing Siding (Dwarf):blk 2 west" creationtype="signalmastlogic" fsensorname="IY:AUTO:0013:forward" rsensorname="IY:AUTO:0013:reverse">
+      <systemName>IY:AUTO:0013</systemName>
+      <userName>N. Passing Siding (Dwarf):blk 2 west</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">blk 2 west</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </section>
+    <section systemName="IY:AUTO:0014" userName="N. Passing Siding (Dwarf):blk 3 east" creationtype="signalmastlogic" fsensorname="IY:AUTO:0014:forward" rsensorname="IY:AUTO:0014:reverse">
+      <systemName>IY:AUTO:0014</systemName>
+      <userName>N. Passing Siding (Dwarf):blk 3 east</userName>
+      <properties>
+        <property>
+          <key>forwardMast</key>
+          <value class="java.lang.String">blk 3 east</value>
+        </property>
+        <property>
+          <key>intermediateSection</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+      </properties>
+    </section>
+  </sections>
+  <routes class="jmri.managers.configurexml.DefaultRouteManagerXml">
+    <route userName="route a">
+      <systemName>IR:AUTO:0001</systemName>
+      <userName>route a</userName>
+    </route>
+    <route userName="route b">
+      <systemName>IR:AUTO:0002</systemName>
+      <userName>route b</userName>
+    </route>
+    <route userName="route c">
+      <systemName>IR:AUTO:0003</systemName>
+      <userName>route c</userName>
+    </route>
+    <route userName="route d">
+      <systemName>IR:AUTO:0004</systemName>
+      <userName>route d</userName>
+    </route>
+    <route userName="route e">
+      <systemName>IR:AUTO:0005</systemName>
+      <userName>route e</userName>
+    </route>
+  </routes>
+  <warrants class="jmri.jmrit.logix.configurexml.WarrantManagerXml" />
+  <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
+    <logicDelay>500</logicDelay>
+  </signalmastlogics>
+  <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Sun Mar 01 08:11:26 CST 2020" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
+  <filehistory>
+    <operation>
+      <type>app</type>
+      <date>Thu Apr 16 09:29:39 CDT 2020</date>
+      <filename>JMRI program</filename>
+    </operation>
+    <operation>
+      <type>Load OK</type>
+      <date>Thu Apr 16 09:29:53 CDT 2020</date>
+      <filename>/C:/Documents%20and%20Settings/Lydia%20Kelly/JMRI/Compatible_Siding_Card.jmri/Compatible%20Card%20Panel.xml</filename>
+      <filehistory>
+        <operation>
+          <type>app</type>
+          <date>Thu Apr 16 09:16:53 CDT 2020</date>
+          <filename>JMRI program</filename>
+        </operation>
+        <operation>
+          <type>Load OK</type>
+          <date>Thu Apr 16 09:17:12 CDT 2020</date>
+          <filename>/C:/Documents%20and%20Settings/Lydia%20Kelly/JMRI/Compatible_Siding_Card.jmri/TORTOISE%20MATRIX%202.xml</filename>
+          <filehistory>
+            <operation>
+              <type>app</type>
+              <date>Thu Apr 16 09:03:48 CDT 2020</date>
+              <filename>JMRI program</filename>
+            </operation>
+            <operation>
+              <type>Load OK</type>
+              <date>Thu Apr 16 09:04:34 CDT 2020</date>
+              <filename>/C:/Documents%20and%20Settings/Lydia%20Kelly/JMRI/Compatible_Siding_Card.jmri/TORTOISE%20MATRIX%202.xml</filename>
+              <filehistory>
+                <operation>
+                  <type>app</type>
+                  <date>Thu Mar 19 07:32:49 CDT 2020</date>
+                  <filename>JMRI program</filename>
+                </operation>
+                <operation>
+                  <type>Store</type>
+                  <date>Fri Mar 20 14:40:49 CDT 2020</date>
+                  <filename />
+                </operation>
+              </filehistory>
+            </operation>
+            <operation>
+              <type>Store</type>
+              <date>Thu Apr 16 09:08:39 CDT 2020</date>
+              <filename />
+            </operation>
+          </filehistory>
+        </operation>
+        <operation>
+          <type>Load OK</type>
+          <date>Thu Apr 16 09:18:36 CDT 2020</date>
+          <filename>/C:/Documents%20and%20Settings/Lydia%20Kelly/JMRI/Compatible_Siding_Card.jmri/TORTOISE%20MATRIX%202.xml</filename>
+          <filehistory>
+            <operation>
+              <type>app</type>
+              <date>Thu Apr 16 09:03:48 CDT 2020</date>
+              <filename>JMRI program</filename>
+            </operation>
+            <operation>
+              <type>Load OK</type>
+              <date>Thu Apr 16 09:04:34 CDT 2020</date>
+              <filename>/C:/Documents%20and%20Settings/Lydia%20Kelly/JMRI/Compatible_Siding_Card.jmri/TORTOISE%20MATRIX%202.xml</filename>
+              <filehistory>
+                <operation>
+                  <type>app</type>
+                  <date>Thu Mar 19 07:32:49 CDT 2020</date>
+                  <filename>JMRI program</filename>
+                </operation>
+                <operation>
+                  <type>Store</type>
+                  <date>Fri Mar 20 14:40:49 CDT 2020</date>
+                  <filename />
+                </operation>
+              </filehistory>
+            </operation>
+            <operation>
+              <type>Store</type>
+              <date>Thu Apr 16 09:08:39 CDT 2020</date>
+              <filename />
+            </operation>
+          </filehistory>
+        </operation>
+        <operation>
+          <type>Load OK</type>
+          <date>Thu Apr 16 09:22:48 CDT 2020</date>
+          <filename>/C:/Documents%20and%20Settings/Lydia%20Kelly/JMRI/Compatible_Siding_Card.jmri/Compatible%20Card%20Panel.xml</filename>
+          <filehistory>
+            <operation>
+              <type>app</type>
+              <date>Tue Apr 14 14:59:14 CDT 2020</date>
+              <filename>JMRI program</filename>
+            </operation>
+            <operation>
+              <type>Load OK</type>
+              <date>Tue Apr 14 14:59:28 CDT 2020</date>
+              <filename>/C:/Documents%20and%20Settings/Lydia%20Kelly/JMRI/Compatible_Siding_Card.jmri/Compatible%20Card%20Panel.xml</filename>
+              <filehistory>
+                <operation>
+                  <type>app</type>
+                  <date>Tue Apr 14 14:50:23 CDT 2020</date>
+                  <filename>JMRI program</filename>
+                </operation>
+                <operation>
+                  <type>Load OK</type>
+                  <date>Tue Apr 14 14:50:39 CDT 2020</date>
+                  <filename>/C:/Documents%20and%20Settings/Lydia%20Kelly/JMRI/Compatible_Siding_Card.jmri/Compatible%20Card%20Panel.xml</filename>
+                  <filehistory>
+                    <operation>
+                      <type>app</type>
+                      <date>Tue Apr 14 14:35:00 CDT 2020</date>
+                      <filename>JMRI program</filename>
+                    </operation>
+                    <operation>
+                      <type>Load OK</type>
+                      <date>Tue Apr 14 14:35:16 CDT 2020</date>
+                      <filename>/C:/Documents%20and%20Settings/Lydia%20Kelly/JMRI/Compatible_Siding_Card.jmri/Compatible%20Card%20Panel.xml</filename>
+                      <filehistory>
+                        <operation>
+                          <type>app</type>
+                          <date>Tue Apr 14 10:31:40 CDT 2020</date>
+                          <filename>JMRI program</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Tue Apr 14 10:32:20 CDT 2020</date>
+                          <filename>/C:/Documents%20and%20Settings/Lydia%20Kelly/JMRI/Compatible_Siding_Card.jmri/Compatible%20Card%20Panel.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Store</type>
+                          <date>Tue Apr 14 13:07:20 CDT 2020</date>
+                          <filename />
+                        </operation>
+                      </filehistory>
+                    </operation>
+                    <operation>
+                      <type>Store</type>
+                      <date>Tue Apr 14 14:38:39 CDT 2020</date>
+                      <filename />
+                    </operation>
+                  </filehistory>
+                </operation>
+                <operation>
+                  <type>Store</type>
+                  <date>Tue Apr 14 14:58:59 CDT 2020</date>
+                  <filename />
+                </operation>
+              </filehistory>
+            </operation>
+            <operation>
+              <type>Store</type>
+              <date>Tue Apr 14 15:17:18 CDT 2020</date>
+              <filename />
+            </operation>
+          </filehistory>
+        </operation>
+        <operation>
+          <type>Load with errors</type>
+          <date>Thu Apr 16 09:28:08 CDT 2020</date>
+          <filename>/C:/Documents%20and%20Settings/Lydia%20Kelly/JMRI/Compatible_Siding_Card.jmri/Compatible%20Card%20Panel.xml</filename>
+          <filehistory>
+            <operation>
+              <type>app</type>
+              <date>Tue Apr 14 14:59:14 CDT 2020</date>
+              <filename>JMRI program</filename>
+            </operation>
+            <operation>
+              <type>Load OK</type>
+              <date>Tue Apr 14 14:59:28 CDT 2020</date>
+              <filename>/C:/Documents%20and%20Settings/Lydia%20Kelly/JMRI/Compatible_Siding_Card.jmri/Compatible%20Card%20Panel.xml</filename>
+              <filehistory>
+                <operation>
+                  <type>app</type>
+                  <date>Tue Apr 14 14:50:23 CDT 2020</date>
+                  <filename>JMRI program</filename>
+                </operation>
+                <operation>
+                  <type>Load OK</type>
+                  <date>Tue Apr 14 14:50:39 CDT 2020</date>
+                  <filename>/C:/Documents%20and%20Settings/Lydia%20Kelly/JMRI/Compatible_Siding_Card.jmri/Compatible%20Card%20Panel.xml</filename>
+                  <filehistory>
+                    <operation>
+                      <type>app</type>
+                      <date>Tue Apr 14 14:35:00 CDT 2020</date>
+                      <filename>JMRI program</filename>
+                    </operation>
+                    <operation>
+                      <type>Load OK</type>
+                      <date>Tue Apr 14 14:35:16 CDT 2020</date>
+                      <filename>/C:/Documents%20and%20Settings/Lydia%20Kelly/JMRI/Compatible_Siding_Card.jmri/Compatible%20Card%20Panel.xml</filename>
+                      <filehistory>
+                        <operation>
+                          <type>app</type>
+                          <date>Tue Apr 14 10:31:40 CDT 2020</date>
+                          <filename>JMRI program</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Tue Apr 14 10:32:20 CDT 2020</date>
+                          <filename>/C:/Documents%20and%20Settings/Lydia%20Kelly/JMRI/Compatible_Siding_Card.jmri/Compatible%20Card%20Panel.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Store</type>
+                          <date>Tue Apr 14 13:07:20 CDT 2020</date>
+                          <filename />
+                        </operation>
+                      </filehistory>
+                    </operation>
+                    <operation>
+                      <type>Store</type>
+                      <date>Tue Apr 14 14:38:39 CDT 2020</date>
+                      <filename />
+                    </operation>
+                  </filehistory>
+                </operation>
+                <operation>
+                  <type>Store</type>
+                  <date>Tue Apr 14 14:58:59 CDT 2020</date>
+                  <filename />
+                </operation>
+              </filehistory>
+            </operation>
+            <operation>
+              <type>Store</type>
+              <date>Tue Apr 14 15:17:18 CDT 2020</date>
+              <filename />
+            </operation>
+          </filehistory>
+        </operation>
+        <operation>
+          <type>Store</type>
+          <date>Thu Apr 16 09:29:24 CDT 2020</date>
+          <filename />
+        </operation>
+      </filehistory>
+    </operation>
+    <operation>
+      <type>Store</type>
+      <date>Thu Apr 16 09:38:49 CDT 2020</date>
+      <filename />
+    </operation>
+  </filehistory>
+  <!--Written by JMRI version 4.17.3+R12d2ded on Thu Apr 16 09:38:49 CDT 2020-->
+</layout-config>

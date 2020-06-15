@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/panelfile-2-9-6.xsl" type="text/xsl"?>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-2-9-6.xsd">
+  <jmriversion>
+    <major>4</major>
+    <minor>18</minor>
+    <test>0</test>
+    <modifier />
+  </jmriversion>
+  <sensors class="jmri.jmrix.internal.configurexml.InternalSensorManagerXml">
+    <defaultInitialState>unknown</defaultInitialState>
+    <sensor inverted="false">
+      <systemName>ISCLOCKRUNNING</systemName>
+    </sensor>
+  </sensors>
+  <sensors class="jmri.jmrix.cmri.serial.configurexml.SerialSensorManagerXml">
+    <sensor inverted="false">
+      <systemName>CS1</systemName>
+      <userName>Node 0 input 1</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS2</systemName>
+      <userName>Node 0 input 2</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS3</systemName>
+      <userName>Node 0 input 3</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS4</systemName>
+      <userName>Node 0 input 4</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS5</systemName>
+      <userName>Node 0 input 5</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS6</systemName>
+      <userName>Node 0 input 6</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS7</systemName>
+      <userName>Node 0 input 7</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS8</systemName>
+      <userName>Node 0 input 8</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS9</systemName>
+      <userName>Node 0 input 9</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS10</systemName>
+      <userName>Node 0 input 10</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS11</systemName>
+      <userName>Node 0 input 11</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS12</systemName>
+      <userName>Node 0 input 12</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS13</systemName>
+      <userName>Node 0 input 13</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS14</systemName>
+      <userName>Node 0 input 14</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS15</systemName>
+      <userName>Node 0 input 15</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS16</systemName>
+      <userName>Node 0 input 16</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS1001</systemName>
+      <userName>Node 1 input 1</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS1002</systemName>
+      <userName>Node 1 input 2</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS1003</systemName>
+      <userName>Node 1 input 3</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS1004</systemName>
+      <userName>Node 1 input 4</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS1005</systemName>
+      <userName>Node 1 input 5</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS1006</systemName>
+      <userName>Node 1 input 6</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS1007</systemName>
+      <userName>Node 1 input 7</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS1008</systemName>
+      <userName>Node 1 input 8</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS1009</systemName>
+      <userName>Node 1 input 9</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS1010</systemName>
+      <userName>Node 1 input 10</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS1011</systemName>
+      <userName>Node 1 input 11</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS1012</systemName>
+      <userName>Node 1 input 12</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS1013</systemName>
+      <userName>Node 1 input 13</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS1014</systemName>
+      <userName>Node 1 input 14</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS1015</systemName>
+      <userName>Node 1 input 15</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS1016</systemName>
+      <userName>Node 1 input 16</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS2001</systemName>
+      <userName>Node 2 input 1</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS2002</systemName>
+      <userName>Node 2 input 2</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS2003</systemName>
+      <userName>Node 2 input 3</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS2004</systemName>
+      <userName>Node 2 input 4</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS2005</systemName>
+      <userName>Node 2 input 5</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS2006</systemName>
+      <userName>Node 2 input 6</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS2007</systemName>
+      <userName>Node 2 input 7</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS2008</systemName>
+      <userName>Node 2 input 8</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS2009</systemName>
+      <userName>Node 2 input 9</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS2010</systemName>
+      <userName>Node 2 input 10</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS2011</systemName>
+      <userName>Node 2 input 11</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS2012</systemName>
+      <userName>Node 2 input 12</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS2013</systemName>
+      <userName>Node 2 input 13</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS2014</systemName>
+      <userName>Node 2 input 14</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS2015</systemName>
+      <userName>Node 2 input 15</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS2016</systemName>
+      <userName>Node 2 input 16</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS3001</systemName>
+      <userName>Node 3 input 1</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS3002</systemName>
+      <userName>Node 3 input 2</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS3003</systemName>
+      <userName>Node 3 input 3</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS3004</systemName>
+      <userName>Node 3 input 4</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS3005</systemName>
+      <userName>Node 3 input 5</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS3006</systemName>
+      <userName>Node 3 input 6</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS3007</systemName>
+      <userName>Node 3 input 7</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS3008</systemName>
+      <userName>Node 3 input 8</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS3009</systemName>
+      <userName>Node 3 input 9</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS3010</systemName>
+      <userName>Node 3 input 10</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS3011</systemName>
+      <userName>Node 3 input 11</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS3012</systemName>
+      <userName>Node 3 input 12</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS3013</systemName>
+      <userName>Node 3 input 13</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS3014</systemName>
+      <userName>Node 3 input 14</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS3015</systemName>
+      <userName>Node 3 input 15</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS3016</systemName>
+      <userName>Node 3 input 16</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS4001</systemName>
+      <userName>Node 4 input 1</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS4002</systemName>
+      <userName>Node 4 input 2</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS4003</systemName>
+      <userName>Node 4 input 3</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS4004</systemName>
+      <userName>Node 4 input 4</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS4005</systemName>
+      <userName>Node 4 input 5</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS4006</systemName>
+      <userName>Node 4 input 6</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS4007</systemName>
+      <userName>Node 4 input 7</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS4008</systemName>
+      <userName>Node 4 input 8</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS4009</systemName>
+      <userName>Node 4 input 9</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS4010</systemName>
+      <userName>Node 4 input 10</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS4011</systemName>
+      <userName>Node 4 input 11</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS4012</systemName>
+      <userName>Node 4 input 12</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS4013</systemName>
+      <userName>Node 4 input 13</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS4014</systemName>
+      <userName>Node 4 input 14</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS4015</systemName>
+      <userName>Node 4 input 15</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>CS4016</systemName>
+      <userName>Node 4 input 16</userName>
+    </sensor>
+  </sensors>
+  <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
+    <memory value="9:55 AM">
+      <systemName>IMCURRENTTIME</systemName>
+    </memory>
+    <memory value="1.0">
+      <systemName>IMRATEFACTOR</systemName>
+    </memory>
+  </memories>
+  <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
+    <logicDelay>500</logicDelay>
+  </signalmastlogics>
+  <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Tue Jun 09 09:51:45 CDT 2020" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
+  <filehistory>
+    <operation>
+      <type>app</type>
+      <date>Tue Jun 09 09:51:43 CDT 2020</date>
+      <filename>JMRI program</filename>
+    </operation>
+    <operation>
+      <type>Store</type>
+      <date>Tue Jun 09 09:55:50 CDT 2020</date>
+      <filename />
+    </operation>
+  </filehistory>
+  <!--Written by JMRI version 4.18+R37ad3d0 on Tue Jun 09 09:55:50 CDT 2020-->
+</layout-config>

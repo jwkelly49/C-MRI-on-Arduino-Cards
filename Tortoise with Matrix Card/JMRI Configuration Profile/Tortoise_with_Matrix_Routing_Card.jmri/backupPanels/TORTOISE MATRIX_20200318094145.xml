@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/panelfile-2-9-6.xsl" type="text/xsl"?>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-2-9-6.xsd">
+  <jmriversion>
+    <major>4</major>
+    <minor>17</minor>
+    <test>3</test>
+    <modifier />
+  </jmriversion>
+  <sensors class="jmri.jmrix.internal.configurexml.InternalSensorManagerXml">
+    <defaultInitialState>unknown</defaultInitialState>
+    <sensor inverted="false">
+      <systemName>ISCLOCKRUNNING</systemName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS1</systemName>
+      <userName>Set Route a</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS2</systemName>
+      <userName>Set Route b</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS3</systemName>
+      <userName>Set Route c</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS4</systemName>
+      <userName>Set Route d</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS5</systemName>
+      <userName>Set Route e</userName>
+    </sensor>
+  </sensors>
+  <sensors class="jmri.jmrix.cmri.serial.configurexml.SerialSensorManagerXml">
+    <sensor inverted="false">
+      <systemName>CS1</systemName>
+      <userName>DUMMY</userName>
+    </sensor>
+  </sensors>
+  <turnouts class="jmri.jmrix.cmri.serial.configurexml.SerialTurnoutManagerXml">
+    <operations automate="false">
+      <operation name="NoFeedback" class="jmri.configurexml.turnoutoperations.NoFeedbackTurnoutOperationXml" interval="300" maxtries="2" />
+      <operation name="Raw" class="jmri.configurexml.turnoutoperations.RawTurnoutOperationXml" interval="300" maxtries="1" />
+      <operation name="Sensor" class="jmri.configurexml.turnoutoperations.SensorTurnoutOperationXml" interval="300" maxtries="3" />
+    </operations>
+    <defaultclosedspeed>Normal</defaultclosedspeed>
+    <defaultthrownspeed>Restricted</defaultthrownspeed>
+    <turnout feedback="DIRECT" inverted="false" numBits="2" controlType="1" automate="Off">
+      <systemName>CT7</systemName>
+      <userName>D1</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" numBits="2" controlType="1" automate="Off">
+      <systemName>CT1</systemName>
+      <userName>A1</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" numBits="2" controlType="1" automate="Off">
+      <systemName>CT3</systemName>
+      <userName>B1</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" numBits="2" controlType="1" automate="Off">
+      <systemName>CT5</systemName>
+      <userName>C1</userName>
+    </turnout>
+  </turnouts>
+  <lights class="jmri.jmrix.cmri.serial.configurexml.SerialLightManagerXml">
+    <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
+      <systemName>CL9</systemName>
+      <userName>Route a</userName>
+      <lightcontrol controlType="4" timedControlSensor="Set Route a" duration="300" />
+    </light>
+    <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
+      <systemName>CL10</systemName>
+      <userName>Route b</userName>
+      <lightcontrol controlType="4" timedControlSensor="Set Route b" duration="300" />
+    </light>
+    <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
+      <systemName>CL11</systemName>
+      <userName>Route c</userName>
+      <lightcontrol controlType="4" timedControlSensor="Set Route c" duration="300" />
+    </light>
+    <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
+      <systemName>CL12</systemName>
+      <userName>Route d</userName>
+      <lightcontrol controlType="4" timedControlSensor="Set Route d" duration="300" />
+    </light>
+    <light minIntensity="0.0" maxIntensity="1.0" transitionTime="0.0">
+      <systemName>CL13</systemName>
+      <userName>Route e</userName>
+      <lightcontrol controlType="4" timedControlSensor="Set Route e" duration="300" />
+    </light>
+  </lights>
+  <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
+    <memory value="7:43 AM">
+      <systemName>IMCURRENTTIME</systemName>
+    </memory>
+    <memory value="1.0">
+      <systemName>IMRATEFACTOR</systemName>
+    </memory>
+  </memories>
+  <signalmasts class="jmri.managers.configurexml.DefaultSignalMastManagerXml" />
+  <signalgroups class="jmri.managers.configurexml.DefaultSignalGroupManagerXml" />
+  <oblocks class="jmri.jmrit.logix.configurexml.OBlockManagerXml" />
+  <warrants class="jmri.jmrit.logix.configurexml.WarrantManagerXml" />
+  <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
+    <logicDelay>500</logicDelay>
+  </signalmastlogics>
+  <logixs class="jmri.managers.configurexml.DefaultLogixManagerXml">
+    <logix userName="C/MRI route sensors" enabled="yes">
+      <systemName>IX:AUTO:0002</systemName>
+      <userName>C/MRI route sensors</userName>
+      <logixConditional systemName="IX:AUTO:0002C1" order="0" />
+      <logixConditional systemName="IX:AUTO:0002C2" order="1" />
+      <logixConditional systemName="IX:AUTO:0002C3" order="2" />
+      <logixConditional systemName="IX:AUTO:0002C4" order="3" />
+      <logixConditional systemName="IX:AUTO:0002C5" order="4" />
+    </logix>
+  </logixs>
+  <conditionals class="jmri.managers.configurexml.DefaultConditionalManagerXml">
+    <conditional systemName="IX:AUTO:0002C1" userName="turn off sensor A" antecedent="R1" logicType="2" triggerOnChange="yes">
+      <systemName>IX:AUTO:0002C1</systemName>
+      <userName>turn off sensor A</userName>
+      <conditionalStateVariable operator="4" negated="no" type="8" systemName="Route a" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="Set Route a" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0002C2" userName="turn off sensor B" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0002C2</systemName>
+      <userName>turn off sensor B</userName>
+      <conditionalStateVariable operator="4" negated="no" type="8" systemName="Route b" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="Set Route b" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0002C3" userName="turn off sensor C" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0002C3</systemName>
+      <userName>turn off sensor C</userName>
+      <conditionalStateVariable operator="4" negated="no" type="8" systemName="Route c" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="Set Route c" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0002C4" userName="turn off sensor D" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0002C4</systemName>
+      <userName>turn off sensor D</userName>
+      <conditionalStateVariable operator="4" negated="no" type="8" systemName="Route d" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="Set Route d" data="4" delay="0" string="" />
+    </conditional>
+    <conditional systemName="IX:AUTO:0002C5" userName="turn off sensor E" antecedent="R1" logicType="1" triggerOnChange="yes">
+      <systemName>IX:AUTO:0002C5</systemName>
+      <userName>turn off sensor E</userName>
+      <conditionalStateVariable operator="4" negated="no" type="8" systemName="Route e" dataString="" num1="0" num2="0" triggersCalc="yes" />
+      <conditionalAction option="1" type="9" systemName="Set Route e" data="4" delay="0" string="" />
+    </conditional>
+  </conditionals>
+  <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Fri Mar 13 16:02:32 CDT 2020" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
+  <filehistory>
+    <operation>
+      <type>app</type>
+      <date>Wed Mar 18 07:38:39 CDT 2020</date>
+      <filename>JMRI program</filename>
+    </operation>
+    <operation>
+      <type>Load OK</type>
+      <date>Wed Mar 18 07:39:15 CDT 2020</date>
+      <filename>/C:/Documents%20and%20Settings/Lydia%20Kelly/JMRI/Compatible_Siding_Card.jmri/TORTOISE%20MATRIX.xml</filename>
+      <filehistory>
+        <operation>
+          <type>app</type>
+          <date>Tue Mar 17 19:16:11 CDT 2020</date>
+          <filename>JMRI program</filename>
+        </operation>
+        <operation>
+          <type>Load OK</type>
+          <date>Tue Mar 17 19:16:34 CDT 2020</date>
+          <filename>/C:/Documents%20and%20Settings/Lydia%20Kelly/JMRI/Compatible_Siding_Card.jmri/TORTOISE%20MATRIX.xml</filename>
+          <filehistory>
+            <operation>
+              <type>app</type>
+              <date>Mon Mar 16 14:39:46 CDT 2020</date>
+              <filename>JMRI program</filename>
+            </operation>
+            <operation>
+              <type>Load OK</type>
+              <date>Mon Mar 16 14:40:12 CDT 2020</date>
+              <filename>/C:/Documents%20and%20Settings/Lydia%20Kelly/JMRI/Compatible_Siding_Card.jmri/TORTOISE%20MATRIX.xml</filename>
+              <filehistory>
+                <operation>
+                  <type>app</type>
+                  <date>Sat Mar 14 09:46:33 CDT 2020</date>
+                  <filename>JMRI program</filename>
+                </operation>
+                <operation>
+                  <type>Load OK</type>
+                  <date>Sat Mar 14 09:46:49 CDT 2020</date>
+                  <filename>/C:/Documents%20and%20Settings/Lydia%20Kelly/JMRI/Compatible_Siding_Card.jmri/TORTOISE%20MATRIX.xml</filename>
+                  <filehistory>
+                    <operation>
+                      <type>app</type>
+                      <date>Fri Mar 13 16:27:38 CDT 2020</date>
+                      <filename>JMRI program</filename>
+                    </operation>
+                    <operation>
+                      <type>Load OK</type>
+                      <date>Fri Mar 13 16:27:49 CDT 2020</date>
+                      <filename>/C:/Documents%20and%20Settings/Lydia%20Kelly/JMRI/Compatible_Siding_Card.jmri/TORTOISE%20MATRIX.xml</filename>
+                      <filehistory>
+                        <operation>
+                          <type>app</type>
+                          <date>Fri Mar 13 16:02:30 CDT 2020</date>
+                          <filename>JMRI program</filename>
+                        </operation>
+                        <operation>
+                          <type>Store</type>
+                          <date>Fri Mar 13 16:27:14 CDT 2020</date>
+                          <filename />
+                        </operation>
+                      </filehistory>
+                    </operation>
+                    <operation>
+                      <type>Store</type>
+                      <date>Sat Mar 14 09:44:30 CDT 2020</date>
+                      <filename />
+                    </operation>
+                  </filehistory>
+                </operation>
+                <operation>
+                  <type>Store</type>
+                  <date>Sat Mar 14 09:59:05 CDT 2020</date>
+                  <filename />
+                </operation>
+              </filehistory>
+            </operation>
+            <operation>
+              <type>Store</type>
+              <date>Tue Mar 17 19:14:06 CDT 2020</date>
+              <filename />
+            </operation>
+          </filehistory>
+        </operation>
+        <operation>
+          <type>Store</type>
+          <date>Wed Mar 18 07:33:55 CDT 2020</date>
+          <filename />
+        </operation>
+      </filehistory>
+    </operation>
+    <operation>
+      <type>Store</type>
+      <date>Wed Mar 18 07:43:57 CDT 2020</date>
+      <filename />
+    </operation>
+  </filehistory>
+  <!--Written by JMRI version 4.17.3+R12d2ded on Wed Mar 18 07:43:57 CDT 2020-->
+</layout-config>
