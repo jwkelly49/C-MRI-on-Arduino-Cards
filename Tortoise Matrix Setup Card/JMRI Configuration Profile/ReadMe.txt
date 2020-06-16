@@ -1,1 +1,1 @@
-this is  a test file
+This card does not need a JMRI configuration profile.

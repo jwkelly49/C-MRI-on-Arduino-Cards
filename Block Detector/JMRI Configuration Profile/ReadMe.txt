@@ -1,1 +1,1 @@
-this is  a test file
+There is no configuration profile needed for this card.
