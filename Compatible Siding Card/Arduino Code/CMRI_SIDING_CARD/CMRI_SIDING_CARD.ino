@@ -1,5 +1,8 @@
 #include <Auto485.h>
 #include <CMRI.h>
+//Author: Michael Adams (<http://www.michael.net.nz>)
+// Copyright (C) 2012 Michael D K Adams.
+// Released under the MIT license.
 
 // three inputs
 #define Mainline A4
@@ -68,12 +71,41 @@ void setup() {
 }
 
 void loop() {
-     
-     // Inputs to C/MRI
      cmri.process();
-     cmri.set_bit(0, digitalRead(Mainline));
-     cmri.set_bit(1,digitalRead(Diverging));
-     cmri.set_bit(2,digitalRead(OSdetection));
+
+     // a and b used to invert the 3 inputs
+     boolean a = LOW;
+     boolean b = LOW; 
+         
+     // Inputs to C/MRI
+    for (int i = 0; i <= 2; i++) {     
+        switch (i) {
+            case 0:
+                 a = digitalRead(Mainline);
+                 break;
+            case 1:
+                a = digitalRead(Diverging);
+                break;
+            case 2:
+                a = digitalRead(OSdetection);
+                break;
+            default:
+                // statements
+                break;
+        }
+        // IF - ELSE inverts the Arduino bits
+        // and stores the new value in b
+        if (a == LOW) {
+           b = HIGH;
+        }
+        else {
+          b = LOW;
+        }
+          // i = cmri bit number b = value to send
+          // set_bit passes value to cmri object so it
+          // can be passed out to JMRI
+          cmri.set_bit(i,b);
+     }
      
      // Output from C/MRI 
      digitalWrite(Agreen, cmri.get_bit(0));  
@@ -95,7 +127,6 @@ void loop() {
      
      digitalWrite(Tmainline, cmri.get_bit(11));
      digitalWrite(Tdiverging, cmri.get_bit(12));
-     
-     
+      
          
 }
